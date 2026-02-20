@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  
+  /* Wellness color palette */
+  --color-teal-50: #f0fdfa;
+  --color-teal-100: #ccfbf1;
+  --color-teal-200: #99f6e4;
+  --color-teal-300: #5eead4;
+  --color-teal-400: #2dd4bf;
+  --color-teal-500: #14b8a6;
+  --color-teal-600: #0d9488;
+  
+  --color-sage-100: #e3e7e3;
+  --color-sage-200: #c7d0c7;
+  --color-sage-300: #a3b2a3;
+  --color-sage-400: #7a8f7a;
+  --color-sage-500: #5c7360;
+  
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #bae6fd;
+  --color-sky-300: #7dd3fc;
+  
+  --color-sand-50: #fdfbf7;
+  --color-sand-100: #f9f5ed;
+  --color-sand-200: #f2ebd8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    var(--color-sand-50) 0%,
+    var(--color-teal-50) 25%,
+    var(--color-sky-100) 50%,
+    var(--color-teal-100) 75%,
+    var(--color-sage-100) 100%
+  );
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-teal-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-teal-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-teal-400);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-teal-200);
+  color: var(--color-teal-900);
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-teal-400);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for interactive elements */
+button, a {
+  transition: all 0.3s ease;
+}
+
+/* Blur backdrop utility */
+.backdrop-blur-glass {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
