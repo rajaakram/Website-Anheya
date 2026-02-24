@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Send, Mail, Phone, MapPin, CheckCircle } from 'lucide-react';
-import { useTranslation } from '../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   const [formData, setFormData] = useState({

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { useTranslation } from '../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
