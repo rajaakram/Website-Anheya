@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useTranslation } from './i18n/i18n';
+import { useTranslation } from 'react-i18next';
 import Navigation from './sections/Navigation';
 import Hero from './sections/Hero';
 import Experiences from './sections/Experiences';
@@ -11,7 +11,8 @@ import Footer from './sections/Footer';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
-  const { locale } = useTranslation();
+  const { i18n } = useTranslation();
+  const locale = i18n.resolvedLanguage;
 
   useEffect(() => {
     const handleScroll = () => {
