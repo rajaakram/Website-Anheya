@@ -1,7 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-
 import en from './locales/en.json';
 import it from './locales/it.json';
 import de from './locales/de.json';
@@ -14,23 +12,23 @@ const resources = {
     es: { translation: es }
 };
 
+const savedLanguage = localStorage.getItem('i18nextLng') || 'en';
+
 i18n
-    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
         resources,
+        lng: savedLanguage,
         fallbackLng: 'en',
         supportedLngs: ['en', 'it', 'de', 'es'],
         interpolation: {
             escapeValue: false, // React already escapes values from XSS
-        },
-        detection: {
-            // Prioritize explicit user language setting from localStorage,
-            // fallback to navigator only heavily heavily if localStorage missing
-            order: ['localStorage', 'navigator'],
-            caches: ['localStorage'],
         }
     });
+
+i18n.on('languageChanged', (lng) => {
+    localStorage.setItem('i18nextLng', lng);
+});
 
 export type Locale = 'en' | 'it' | 'de' | 'es';
 
