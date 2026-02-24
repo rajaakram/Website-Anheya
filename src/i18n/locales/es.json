@@ -1,5 +1,6 @@
 {
     "nav": {
+        "tagline": "Experiencias de Viaje a Medida",
         "home": "Inicio",
         "experiences": "Experiencias",
         "about": "Nosotros",
@@ -59,9 +60,9 @@
         "badge": "Sobre Nosotros",
         "titleLine1": "Conoce a Teresa",
         "titleLine2": "",
-        "paragraph1": "Nacidos y criados en el corazón del Cilento, hemos pasado nuestra vida explorando cada rincón de esta tierra mágica. Desde los antiguos templos griegos de Paestum hasta las calas escondidas a lo largo de la costa mediterránea, conocemos el Cilento como la palma de nuestra mano.",
-        "paragraph2": "Lo que empezó compartiendo nuestros lugares favoritos con amigos se ha convertido en una pasión por crear experiencias de viaje inolvidables. Creemos que viajar debe ser más que hacer turismo: debe ser conexión, cultura y crear recuerdos que duren toda la vida.",
-        "paragraph3": "Cada experiencia que ofrecemos está personalmente curada, desde encontrarnos con los productores de mozzarella de búfala al amanecer hasta compartir comidas caseras con familias locales. Estamos deseando compartir nuestro Cilento contigo.",
+        "paragraph1": "Nacida y criada en el corazón del Cilento, he pasado mi vida explorando cada rincón de esta tierra mágica. Desde los antiguos templos griegos de Paestum hasta las calas escondidas a lo largo de la costa mediterránea, conozco el Cilento como la palma de mi mano.",
+        "paragraph2": "Lo que empezó compartiendo mis lugares favoritos con amigos se ha convertido en una pasión por crear experiencias de viaje inolvidables. Creo que viajar debe ser más que hacer turismo: debe ser conexión, cultura y crear recuerdos que duren toda la vida.",
+        "paragraph3": "Cada experiencia que ofrezco está personalmente curada, desde encontrarme con los productores de mozzarella de búfala al amanecer hasta compartir comidas caseras con familias locales. Estoy deseando compartir mi Cilento contigo.",
         "floatingCardValue": "15+",
         "floatingCardLabel": "Años de Amor",
         "floatingCardQuote": "\"Compartimos nuestro hogar con el mundo\"",
@@ -208,7 +209,7 @@
             "Política de Cancelación",
             "Consejos de Viaje"
         ],
-        "copyright": "Paestum Holidays. Todos los derechos reservados.",
+        "copyright": "Felix Dream. Todos los derechos reservados.",
         "privacy": "Política de Privacidad",
         "terms": "Términos de Servicio"
     }

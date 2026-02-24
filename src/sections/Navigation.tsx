@@ -54,7 +54,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
               Felix Dream
             </span>
             <span className="text-[0.6rem] uppercase tracking-[0.2em] text-deep-olive mt-1.5 font-medium">
-              Curated Travel Experiences
+              {t('nav.tagline')}
             </span>
           </div>
         </a>

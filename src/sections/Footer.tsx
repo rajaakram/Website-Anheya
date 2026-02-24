@@ -64,7 +64,7 @@ const Footer = () => {
                   Felix Dream
                 </span>
                 <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/60 mt-1.5 font-medium">
-                  Curated Travel Experiences
+                  {t('nav.tagline')}
                 </span>
               </div>
             </a>
@@ -175,7 +175,7 @@ const Footer = () => {
             </a>
             <div className="flex items-center gap-2 text-white/70">
               <MapPin size={16} />
-              <span className="text-sm">Capaccio Paestum, Italy</span>
+              <span className="text-sm">{t('contact.locationValue')}</span>
             </div>
           </div>
         </div>

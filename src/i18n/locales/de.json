@@ -1,5 +1,6 @@
 {
     "nav": {
+        "tagline": "Ausgewählte Reiseerlebnisse",
         "home": "Start",
         "experiences": "Erlebnisse",
         "about": "Über Uns",
@@ -59,9 +60,9 @@
         "badge": "Über Uns",
         "titleLine1": "Lerne Teresa",
         "titleLine2": " Kennen",
-        "paragraph1": "Im Herzen des Cilento geboren und aufgewachsen, haben wir unser Leben damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — wir kennen das Cilento wie unsere Westentasche.",
-        "paragraph2": "Was als Teilen unserer Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Wir glauben, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
-        "paragraph3": "Jedes Erlebnis, das wir anbieten, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Wir können es kaum erwarten, unser Cilento mit dir zu teilen.",
+        "paragraph1": "Im Herzen des Cilento geboren und aufgewachsen, habe ich mein Leben damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — ich kenne das Cilento wie meine Westentasche.",
+        "paragraph2": "Was als Teilen meiner Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Ich glaube, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
+        "paragraph3": "Jedes Erlebnis, das ich anbiete, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Ich kann es kaum erwarten, mein Cilento mit dir zu teilen.",
         "floatingCardValue": "15+",
         "floatingCardLabel": "Jahre mit Herz",
         "floatingCardQuote": "\"Wir teilen unser Zuhause mit der Welt\"",
@@ -208,7 +209,7 @@
             "Stornierungsbedingungen",
             "Reisetipps"
         ],
-        "copyright": "Paestum Holidays. Alle Rechte vorbehalten.",
+        "copyright": "Felix Dream. Alle Rechte vorbehalten.",
         "privacy": "Datenschutz",
         "terms": "AGB"
     }
