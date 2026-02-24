@@ -1,0 +1,215 @@
+{
+    "nav": {
+        "home": "Start",
+        "experiences": "Erlebnisse",
+        "about": "Über Uns",
+        "testimonials": "Erfahrungen",
+        "faq": "FAQ",
+        "contact": "Kontakt",
+        "bookNow": "Jetzt Buchen"
+    },
+    "hero": {
+        "badge": "Capaccio Paestum, Cilento, Italien",
+        "titleLine1": "Entdecke die Seele des",
+        "titleLine2": "Cilento",
+        "subtitle": "Boutique-Reiseerlebnisse, mit Leidenschaft gestaltet von Pierluigi und Teresa. Tauche ein in authentische italienische Kultur, Geschichte und natürliche Schönheit.",
+        "ctaPrimary": "Erlebnisse Entdecken",
+        "ctaSecondary": "Kontakt Aufnehmen",
+        "stat1Value": "15+",
+        "stat1Label": "Jahre Erfahrung",
+        "stat2Value": "5000+",
+        "stat2Label": "Glückliche Reisende",
+        "stat3Value": "50+",
+        "stat3Label": "Einzigartige Erlebnisse"
+    },
+    "experiences": {
+        "badge": "Unsere Erlebnisse",
+        "titleLine1": "Mit Leidenschaft Gestaltet,",
+        "titleLine2": " Für Dich Gemacht",
+        "subtitle": "Von Reisen zu den eigenen Wurzeln bis hin zu Tagesabenteuern — jedes Erlebnis ist sorgfältig kuratiert, damit du die authentische Schönheit des Cilento erlebst.",
+        "mostPopular": "Am Beliebtesten",
+        "learnMore": "Mehr Erfahren",
+        "customCta": "Suchst du etwas Individuelles? Wir erstellen maßgeschneiderte Reiserouten.",
+        "customButton": "Individuelle Erfahrung Anfragen",
+        "items": [
+            {
+                "title": "Wurzeln-Urlaub",
+                "description": "Entdecke dein italienisches Erbe durch authentische Familienerlebnisse, traditionelle Kochkurse und Besuche in den Heimatorten deiner Vorfahren.",
+                "duration": "7–14 Tage",
+                "groupSize": "2–8 Personen",
+                "price": "Ab 1.299 €"
+            },
+            {
+                "title": "Tagestouren",
+                "description": "Erkunde die antiken griechischen Tempel von Paestum, entdecke versteckte Strände und genieße die berühmte Büffelmozzarella auf lokalen Bauernhöfen.",
+                "duration": "1 Tag",
+                "groupSize": "Bis zu 12",
+                "price": "Ab 89 €"
+            },
+            {
+                "title": "Urlaubspakete",
+                "description": "Kuratierte Mehrtageserlebnisse, die Luxusunterkünfte, private Touren und exklusiven Zugang zu lokalen Geheimtipps kombinieren.",
+                "duration": "3–10 Tage",
+                "groupSize": "2–6 Personen",
+                "price": "Ab 799 €"
+            }
+        ]
+    },
+    "about": {
+        "badge": "Über Uns",
+        "titleLine1": "Lerne Pierluigi",
+        "titleLine2": " & Teresa Kennen",
+        "paragraph1": "Im Herzen des Cilento geboren und aufgewachsen, haben wir unser Leben damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — wir kennen das Cilento wie unsere Westentasche.",
+        "paragraph2": "Was als Teilen unserer Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Wir glauben, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
+        "paragraph3": "Jedes Erlebnis, das wir anbieten, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Wir können es kaum erwarten, unser Cilento mit dir zu teilen.",
+        "floatingCardValue": "15+",
+        "floatingCardLabel": "Jahre mit Herz",
+        "floatingCardQuote": "\"Wir teilen unser Zuhause mit der Welt\"",
+        "values": [
+            {
+                "title": "Gastgeber mit Herz",
+                "description": "Pierluigi und Teresa gestalten jedes Erlebnis persönlich mit Liebe und Hingabe."
+            },
+            {
+                "title": "Nachhaltiges Reisen",
+                "description": "Wir unterstützen lokale Gemeinschaften und schützen die natürliche Schönheit des Cilento."
+            },
+            {
+                "title": "Kleine Gruppen",
+                "description": "Intime Erlebnisse, die echte Verbindungen und Individualität ermöglichen."
+            },
+            {
+                "title": "Lokale Expertise",
+                "description": "Tiefes Wissen über die Geheimtipps und authentischen Erlebnisse der Region."
+            }
+        ]
+    },
+    "testimonials": {
+        "badge": "Erfahrungsberichte",
+        "titleLine1": "Geschichten unserer",
+        "titleLine2": " Reisenden",
+        "subtitle": "Glaub nicht nur uns — hier erzählen unsere Gäste von ihren Abenteuern im Cilento.",
+        "happyTravelers": "zufriedene Reisende",
+        "averageRating": "Durchschnittsbewertung",
+        "tripAdvisor": "Auszeichnung",
+        "items": [
+            {
+                "quote": "Das Dorf meiner Großmutter mit Pierluigi und Teresa zu finden, war die emotionalste Erfahrung meines Lebens. Sie haben uns wie Familie behandelt und unsere Reise zu den Wurzeln unvergesslich gemacht.",
+                "name": "Sarah Mitchell",
+                "role": "Familien-Wurzelreise",
+                "location": "Boston, USA"
+            },
+            {
+                "quote": "Der Kochkurs in einem traditionellen Bauernhaus hat alle Erwartungen übertroffen. Von einer Nonna, die seit 60 Jahren kocht, authentische Pasta zuzubereiten, war magisch.",
+                "name": "Maria Schmidt",
+                "role": "Kulinarisches Erlebnis",
+                "location": "München, Deutschland"
+            },
+            {
+                "quote": "Unsere Flitterwochen im Cilento waren Perfektion. Die private Villa, die Abendessen bei Sonnenuntergang, die versteckten Strände — jedes Detail wurde liebevoll arrangiert. Wir haben uns neu in Italien verliebt.",
+                "name": "James & Emma Wilson",
+                "role": "Flitterwochen-Paket",
+                "location": "London, UK"
+            }
+        ]
+    },
+    "faq": {
+        "badge": "FAQ",
+        "titleLine1": "Häufig Gestellte",
+        "titleLine2": " Fragen",
+        "subtitle": "Du hast Fragen? Wir haben Antworten. Falls du nicht findest, was du suchst, kontaktiere uns gerne direkt.",
+        "contactCta": "Noch Fragen? Wir helfen dir gerne!",
+        "contactButton": "Kontaktiere Uns",
+        "items": [
+            {
+                "question": "Was ist in euren Reisepaketen enthalten?",
+                "answer": "Unsere Pakete beinhalten in der Regel Unterkunft, Führungen, Transport innerhalb des Cilento, Mahlzeiten laut Reiseplan und alle Eintrittsgelder. Wir bieten außerdem rund um die Uhr Unterstützung während deines Aufenthalts. Jedes Paket beschreibt genau, was enthalten ist, und wir passen es gerne an deine Wünsche an."
+            },
+            {
+                "question": "Wie buche ich einen Wurzeln-Urlaub, um meinen Heimatort zu finden?",
+                "answer": "Kontaktiere uns mit allen Informationen über deine italienischen Vorfahren — Namen, ungefähre Daten und die Region oder den Ort, falls bekannt. Wir führen Voruntersuchungen durch und erstellen einen personalisierten Reiseplan. Pierluigi hat umfangreiche Erfahrung mit genealogischen Aufzeichnungen und lokalen Archiven."
+            },
+            {
+                "question": "Wann ist die beste Reisezeit für das Cilento?",
+                "answer": "Das Cilento ist das ganze Jahr über wunderschön! Der Frühling (April–Mai) bietet mildes Wetter und blühende Wildblumen. Der Sommer (Juni–August) ist perfekt für Strandaktivitäten und Feste. Der Herbst (September–Oktober) ist ideal für die Weinlese und weniger Gedränge. Der Winter bietet ein ruhiges, authentisches lokales Erlebnis."
+            },
+            {
+                "question": "Bietet ihr private Touren für kleine Gruppen an?",
+                "answer": "Auf jeden Fall! Die meisten unserer Erlebnisse sind für kleine Gruppen von 2–8 Personen konzipiert, um maximale Individualität zu garantieren. Wir können auch komplett private Touren für Paare, Familien oder Freundesgruppen organisieren. Teile uns einfach deine Wünsche bei der Buchung mit."
+            },
+            {
+                "question": "Welche Sprachen sprechen eure Guides?",
+                "answer": "Pierluigi und Teresa sprechen fließend Italienisch und Englisch. Wir haben auch Guides, die Deutsch und Spanisch sprechen. Für andere Sprachen können wir bei rechtzeitiger Anfrage Übersetzungsdienste organisieren."
+            },
+            {
+                "question": "Könnt ihr auf Ernährungseinschränkungen eingehen?",
+                "answer": "Ja, wir arbeiten eng mit unseren Restaurantpartnern und Gastgebern zusammen, um alle Ernährungsbedürfnisse zu berücksichtigen — vegetarisch, vegan, glutenfrei, Allergien usw. Informiere uns einfach bei der Buchung, und wir sorgen dafür, dass jede Mahlzeit genussvoll und sicher für dich ist."
+            },
+            {
+                "question": "Wie sind eure Stornierungsbedingungen?",
+                "answer": "Wir bieten flexible Stornierung: volle Rückerstattung bei Stornierung mehr als 30 Tage vor der Reise, 50 % Rückerstattung bei 15–29 Tagen und Reiseguthaben bei Stornierung innerhalb von 14 Tagen. Wir verstehen, dass sich Pläne ändern können, und finden gemeinsam die beste Lösung."
+            },
+            {
+                "question": "Wie komme ich ins Cilento?",
+                "answer": "Am einfachsten fliegst du zum internationalen Flughafen Neapel (NAP). Wir organisieren gerne Flughafentransfers zu deiner Unterkunft im Cilento (ca. 1,5 Stunden). Alternativ kannst du mit dem Zug nach Salerno fahren, und wir holen dich dort ab."
+            }
+        ]
+    },
+    "contact": {
+        "badge": "Kontakt",
+        "titleLine1": "Plane Deinen",
+        "titleLine2": " Traumurlaub",
+        "subtitle": "Egal ob du bereit bist zu buchen oder dich nur umschaust — wir freuen uns von dir zu hören. Fülle das Formular aus und wir melden uns innerhalb von 24 Stunden.",
+        "emailLabel": "Schreib uns an",
+        "phoneLabel": "Ruf uns an unter",
+        "locationLabel": "Besuche uns in",
+        "locationValue": "Capaccio Paestum, Cilento, Italien",
+        "hostsName": "Pierluigi & Teresa",
+        "hostsRole": "Deine Gastgeber im Cilento",
+        "formName": "Dein Name",
+        "formNamePlaceholder": "Max Mustermann",
+        "formEmail": "E-Mail-Adresse",
+        "formEmailPlaceholder": "max@beispiel.de",
+        "formPhone": "Telefonnummer",
+        "formPhonePlaceholder": "+49 123 456 7890",
+        "formExperience": "Interesse An",
+        "formExperienceDefault": "Option wählen",
+        "formExperienceRoots": "Wurzeln-Urlaub",
+        "formExperienceTours": "Tagestouren",
+        "formExperiencePackages": "Urlaubspakete",
+        "formExperienceCustom": "Individuelles Erlebnis",
+        "formMessage": "Deine Nachricht",
+        "formMessagePlaceholder": "Erzähle uns von deinem Traumurlaub...",
+        "formSubmit": "Nachricht Senden",
+        "formPrivacy": "Mit dem Absenden stimmst du unserer Datenschutzrichtlinie zu. Wir geben deine Daten niemals weiter.",
+        "formSuccessTitle": "Nachricht Gesendet!",
+        "formSuccessMessage": "Danke für deine Nachricht. Wir melden uns bald!"
+    },
+    "footer": {
+        "brandDescription": "Boutique-Reiseerlebnisse im Herzen des Cilento, Italien. Mit Leidenschaft gestaltet von Pierluigi und Teresa seit 2009.",
+        "experiencesTitle": "Erlebnisse",
+        "companyTitle": "Unternehmen",
+        "supportTitle": "Hilfe",
+        "experienceLinks": [
+            "Wurzeln-Urlaub",
+            "Tagestouren",
+            "Urlaubspakete",
+            "Individuelle Erlebnisse"
+        ],
+        "companyLinks": [
+            "Über Uns",
+            "Unsere Geschichte",
+            "Erfahrungsberichte",
+            "Kontakt"
+        ],
+        "supportLinks": [
+            "FAQ",
+            "Buchungsinfo",
+            "Stornierungsbedingungen",
+            "Reisetipps"
+        ],
+        "copyright": "Paestum Holidays. Alle Rechte vorbehalten.",
+        "privacy": "Datenschutz",
+        "terms": "AGB"
+    }
+}

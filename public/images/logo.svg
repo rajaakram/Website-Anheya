@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Top-left: Red ring/circle -->
+  <circle cx="28" cy="28" r="20" fill="none" stroke="#C41E1E" stroke-width="10"/>
+  
+  <!-- Top-right: Green leaf -->
+  <path d="M72 8 C90 20, 92 48, 72 48 C52 48, 54 20, 72 8Z" fill="#008C45"/>
+  
+  <!-- Bottom-left: Blue rectangle with wave -->
+  <rect x="6" y="55" width="42" height="38" rx="2" fill="#1A2F8F"/>
+  <path d="M6 72 Q18 62, 30 72 Q42 82, 48 72 L48 93 L6 93Z" fill="#1A2F8F"/>
+  <path d="M6 74 Q18 64, 30 74 Q42 84, 48 74" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Bottom-right: Golden/yellow rounded shield -->
+  <path d="M54 55 L94 55 L94 78 Q94 93, 74 93 Q54 93, 54 78Z" fill="#E8C840"/>
+</svg>
