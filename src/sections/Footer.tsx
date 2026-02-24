@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Facebook, Instagram, Mail, Phone, MapPin, Globe, ChevronDown } from 'lucide-react';
+import { Facebook, Instagram, Mail, Phone, MapPin, ChevronDown } from 'lucide-react';
 import { useTranslation, SUPPORTED_LANGUAGES, type Locale } from '../i18n/i18n';
 
 const footerLinkHrefs = {
@@ -193,7 +193,6 @@ const Footer = () => {
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
             >
-              <Globe size={16} />
               <span className="text-sm">{currentLang.flag}</span>
               <span className="text-sm hidden sm:inline">{currentLang.name}</span>
               <ChevronDown

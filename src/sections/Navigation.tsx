@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { useTranslation, SUPPORTED_LANGUAGES, type Locale } from '../i18n/i18n';
 
 interface NavigationProps {
@@ -82,7 +82,6 @@ const Navigation = ({ scrolled }: NavigationProps) => {
                 }`}
               aria-label="Change language"
             >
-              <Globe size={15} />
               <span>{currentLang.flag}</span>
               <ChevronDown
                 size={13}
