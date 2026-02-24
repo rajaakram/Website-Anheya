@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from './i18n/i18n';
 import Navigation from './sections/Navigation';
 import Hero from './sections/Hero';
 import Experiences from './sections/Experiences';
@@ -10,6 +11,7 @@ import Footer from './sections/Footer';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
+  const { locale } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-cream overflow-x-hidden">
+    <div key={locale} className="min-h-screen bg-cream overflow-x-hidden">
       <Navigation scrolled={scrolled} />
       <main>
         <Hero />

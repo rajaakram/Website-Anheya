@@ -47,12 +47,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(detectBrowserLocale);
 
   const setLocale = (newLocale: Locale) => {
+    console.log("SETTING LOCALE TO:", newLocale);
     setLocaleState(newLocale);
     localStorage.setItem(STORAGE_KEY, newLocale);
     document.documentElement.lang = newLocale;
   };
 
   useEffect(() => {
+    console.log("LanguageProvider MOUNTED, initial locale:", locale);
     document.documentElement.lang = locale;
   }, []);
 
