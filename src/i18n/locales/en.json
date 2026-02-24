@@ -67,7 +67,7 @@
         "floatingCardQuote": "\"Sharing our home with the world\"",
         "values": [
             {
-                "title": "Passionate Hosts",
+                "title": "Passionate Host",
                 "description": "Teresa personally curates every experience with love and dedication."
             },
             {
@@ -165,7 +165,7 @@
         "locationLabel": "Visit us in",
         "locationValue": "Capaccio Paestum, Cilento, Italy",
         "hostsName": "Teresa",
-        "hostsRole": "Your hosts in Cilento",
+        "hostsRole": "Your host in Cilento",
         "formName": "Your Name",
         "formNamePlaceholder": "John Doe",
         "formEmail": "Email Address",
