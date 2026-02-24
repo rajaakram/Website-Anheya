@@ -12,7 +12,7 @@
         "badge": "Capaccio Paestum, Cilento, Italien",
         "titleLine1": "Entdecke die Seele des",
         "titleLine2": "Cilento",
-        "subtitle": "Boutique-Reiseerlebnisse, mit Leidenschaft gestaltet von Pierluigi und Teresa. Tauche ein in authentische italienische Kultur, Geschichte und natürliche Schönheit.",
+        "subtitle": "Boutique-Reiseerlebnisse, mit Leidenschaft gestaltet von Teresa. Tauche ein in authentische italienische Kultur, Geschichte und natürliche Schönheit.",
         "ctaPrimary": "Erlebnisse Entdecken",
         "ctaSecondary": "Kontakt Aufnehmen",
         "stat1Value": "15+",
@@ -57,8 +57,8 @@
     },
     "about": {
         "badge": "Über Uns",
-        "titleLine1": "Lerne Pierluigi",
-        "titleLine2": " & Teresa Kennen",
+        "titleLine1": "Lerne Teresa",
+        "titleLine2": " Kennen",
         "paragraph1": "Im Herzen des Cilento geboren und aufgewachsen, haben wir unser Leben damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — wir kennen das Cilento wie unsere Westentasche.",
         "paragraph2": "Was als Teilen unserer Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Wir glauben, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
         "paragraph3": "Jedes Erlebnis, das wir anbieten, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Wir können es kaum erwarten, unser Cilento mit dir zu teilen.",
@@ -68,7 +68,7 @@
         "values": [
             {
                 "title": "Gastgeber mit Herz",
-                "description": "Pierluigi und Teresa gestalten jedes Erlebnis persönlich mit Liebe und Hingabe."
+                "description": "Teresa gestaltet jedes Erlebnis persönlich mit Liebe und Hingabe."
             },
             {
                 "title": "Nachhaltiges Reisen",
@@ -94,7 +94,7 @@
         "tripAdvisor": "Auszeichnung",
         "items": [
             {
-                "quote": "Das Dorf meiner Großmutter mit Pierluigi und Teresa zu finden, war die emotionalste Erfahrung meines Lebens. Sie haben uns wie Familie behandelt und unsere Reise zu den Wurzeln unvergesslich gemacht.",
+                "quote": "Das Dorf meiner Großmutter mit Teresa zu finden, war die emotionalste Erfahrung meines Lebens. Sie hat uns wie Familie behandelt und unsere Reise zu den Wurzeln unvergesslich gemacht.",
                 "name": "Sarah Mitchell",
                 "role": "Familien-Wurzelreise",
                 "location": "Boston, USA"
@@ -127,7 +127,7 @@
             },
             {
                 "question": "Wie buche ich einen Wurzeln-Urlaub, um meinen Heimatort zu finden?",
-                "answer": "Kontaktiere uns mit allen Informationen über deine italienischen Vorfahren — Namen, ungefähre Daten und die Region oder den Ort, falls bekannt. Wir führen Voruntersuchungen durch und erstellen einen personalisierten Reiseplan. Pierluigi hat umfangreiche Erfahrung mit genealogischen Aufzeichnungen und lokalen Archiven."
+                "answer": "Kontaktiere uns mit allen Informationen über deine italienischen Vorfahren — Namen, ungefähre Daten und die Region oder den Ort, falls bekannt. Wir führen Voruntersuchungen durch und erstellen einen personalisierten Reiseplan. Teresa hat umfangreiche Erfahrung mit genealogischen Aufzeichnungen und lokalen Archiven."
             },
             {
                 "question": "Wann ist die beste Reisezeit für das Cilento?",
@@ -139,7 +139,7 @@
             },
             {
                 "question": "Welche Sprachen sprechen eure Guides?",
-                "answer": "Pierluigi und Teresa sprechen fließend Italienisch und Englisch. Wir haben auch Guides, die Deutsch und Spanisch sprechen. Für andere Sprachen können wir bei rechtzeitiger Anfrage Übersetzungsdienste organisieren."
+                "answer": "Teresa spricht fließend Italienisch und Englisch. Wir haben auch Guides, die Deutsch und Spanisch sprechen. Für andere Sprachen können wir bei rechtzeitiger Anfrage Übersetzungsdienste organisieren."
             },
             {
                 "question": "Könnt ihr auf Ernährungseinschränkungen eingehen?",
@@ -164,7 +164,7 @@
         "phoneLabel": "Ruf uns an unter",
         "locationLabel": "Besuche uns in",
         "locationValue": "Capaccio Paestum, Cilento, Italien",
-        "hostsName": "Pierluigi & Teresa",
+        "hostsName": "Teresa",
         "hostsRole": "Deine Gastgeber im Cilento",
         "formName": "Dein Name",
         "formNamePlaceholder": "Max Mustermann",
@@ -186,7 +186,7 @@
         "formSuccessMessage": "Danke für deine Nachricht. Wir melden uns bald!"
     },
     "footer": {
-        "brandDescription": "Boutique-Reiseerlebnisse im Herzen des Cilento, Italien. Mit Leidenschaft gestaltet von Pierluigi und Teresa seit 2009.",
+        "brandDescription": "Boutique-Reiseerlebnisse im Herzen des Cilento, Italien. Mit Leidenschaft gestaltet von Teresa seit 2009.",
         "experiencesTitle": "Erlebnisse",
         "companyTitle": "Unternehmen",
         "supportTitle": "Hilfe",

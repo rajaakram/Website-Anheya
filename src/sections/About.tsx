@@ -60,7 +60,7 @@ const About = () => {
             <div className="relative">
               <div className="blob-mask overflow-hidden">
                 <img
-                  src="/images/about-landscape.jpg"
+                  src="./images/cilento-panoramic.jpg"
                   alt="Cilento countryside with olive groves"
                   className="w-full h-[400px] md:h-[500px] object-cover"
                 />
@@ -86,7 +86,7 @@ const About = () => {
             {/* Secondary Image */}
             <div className="absolute -top-8 -left-8 w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg hidden lg:block">
               <img
-                src="/images/olive-grove.jpg"
+                src="./images/vineyard-vesuvius.webp"
                 alt="Olive grove"
                 className="w-full h-full object-cover"
               />
@@ -121,12 +121,12 @@ const About = () => {
                 >
                   <div
                     className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${value.color === 'coral'
-                        ? 'bg-[#D94F3E]/10'
-                        : value.color === 'emerald'
-                          ? 'bg-[#1B8C5A]/10'
-                          : value.color === 'golden'
-                            ? 'bg-[#E8B84B]/10'
-                            : 'bg-[#2B4FA0]/10'
+                      ? 'bg-[#D94F3E]/10'
+                      : value.color === 'emerald'
+                        ? 'bg-[#1B8C5A]/10'
+                        : value.color === 'golden'
+                          ? 'bg-[#E8B84B]/10'
+                          : 'bg-[#2B4FA0]/10'
                       }`}
                   >
                     <value.icon

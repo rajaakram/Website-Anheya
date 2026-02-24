@@ -5,19 +5,19 @@ import { useTranslation } from '../i18n/i18n';
 const experiencesMeta = [
   {
     id: 1,
-    image: '/images/roots-holiday.jpg',
+    image: './images/agnone-cilento.jpg',
     rating: 4.9,
     featured: true,
   },
   {
     id: 2,
-    image: '/images/day-tour.jpg',
+    image: './images/paestum-temples.jpg',
     rating: 4.8,
     featured: false,
   },
   {
     id: 3,
-    image: '/images/vacation-package.jpg',
+    image: './images/amalfi-coast.jpg',
     rating: 5.0,
     featured: false,
   },

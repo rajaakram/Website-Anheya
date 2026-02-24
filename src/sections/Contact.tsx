@@ -144,10 +144,7 @@ const Contact = () => {
 
             {/* Hosts */}
             <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-400 flex items-center gap-4 p-6 rounded-2xl bg-white shadow-sm">
-              <div className="flex -space-x-3">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#D94F3E] to-[#E8B84B] flex items-center justify-center border-2 border-white">
-                  <span className="text-white font-bold">P</span>
-                </div>
+              <div className="flex">
                 <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1B8C5A] to-[#2B4FA0] flex items-center justify-center border-2 border-white">
                   <span className="text-white font-bold">T</span>
                 </div>
