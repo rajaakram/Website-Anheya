@@ -56,12 +56,17 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-3 mb-6">
               <img
                 src="/images/logo.svg"
-                alt="Paestum Holidays"
+                alt="Felix Dream"
                 className="w-12 h-12 object-contain"
               />
-              <span className="font-heading font-semibold text-2xl">
-                Paestum Holidays
-              </span>
+              <div className="flex flex-col">
+                <span className="font-heading font-bold text-2xl uppercase tracking-widest leading-none text-white">
+                  Felix Dream
+                </span>
+                <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/60 mt-1.5 font-medium">
+                  Curated Travel Experiences
+                </span>
+              </div>
             </a>
             <p className="text-white/70 leading-relaxed mb-6 max-w-sm">
               {t('footer.brandDescription')}

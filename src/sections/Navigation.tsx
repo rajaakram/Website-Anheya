@@ -43,15 +43,20 @@ const Navigation = ({ scrolled }: NavigationProps) => {
     >
       <nav className="container-padding max-w-7xl mx-auto flex items-center justify-between py-4 md:py-5">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-3">
           <img
             src="/images/logo.svg"
-            alt="Paestum Holidays"
+            alt="Felix Dream"
             className="w-10 h-10 object-contain"
           />
-          <span className="font-heading font-semibold text-xl text-charcoal hidden sm:block">
-            Paestum Holidays
-          </span>
+          <div className="hidden sm:flex flex-col">
+            <span className="font-heading font-bold text-xl text-charcoal uppercase tracking-widest leading-none">
+              Felix Dream
+            </span>
+            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-deep-olive mt-1.5 font-medium">
+              Curated Travel Experiences
+            </span>
+          </div>
         </a>
 
         {/* Desktop Navigation */}
