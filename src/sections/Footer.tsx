@@ -191,7 +191,7 @@ const Footer = () => {
           {/* Language Selector */}
           <div className="relative" ref={langRef}>
             <button
-              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              onClick={(e) => { e.stopPropagation(); setLangDropdownOpen(!langDropdownOpen); }}
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
             >
               <span className="text-sm">{currentLang.flag}</span>
@@ -207,7 +207,8 @@ const Footer = () => {
                 {SUPPORTED_LANGUAGES.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.stopPropagation();
                       i18n.changeLanguage(lang.code);
                       setLangDropdownOpen(false);
                     }}

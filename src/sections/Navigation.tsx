@@ -76,7 +76,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
           {/* Language Switcher */}
           <div className="relative" ref={langRef}>
             <button
-              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              onClick={(e) => { e.stopPropagation(); setLangDropdownOpen(!langDropdownOpen); }}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-full text-sm transition-all duration-200 ${scrolled
                 ? 'bg-charcoal/5 hover:bg-charcoal/10 text-charcoal'
                 : 'bg-white/30 hover:bg-white/50 text-charcoal backdrop-blur-sm'
@@ -95,7 +95,8 @@ const Navigation = ({ scrolled }: NavigationProps) => {
                 {SUPPORTED_LANGUAGES.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.stopPropagation();
                       i18n.changeLanguage(lang.code);
                       setLangDropdownOpen(false);
                     }}
@@ -126,7 +127,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
           {/* Mobile Language Switcher */}
           <div className="relative" ref={langRef}>
             <button
-              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              onClick={(e) => { e.stopPropagation(); setLangDropdownOpen(!langDropdownOpen); }}
               className="flex items-center gap-1 p-2 text-charcoal rounded-full hover:bg-charcoal/5 transition-colors"
               aria-label="Change language"
             >
@@ -139,7 +140,8 @@ const Navigation = ({ scrolled }: NavigationProps) => {
                 {SUPPORTED_LANGUAGES.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.stopPropagation();
                       i18n.changeLanguage(lang.code);
                       setLangDropdownOpen(false);
                     }}
