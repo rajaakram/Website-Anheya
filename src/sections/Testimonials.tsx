@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Star, Quote } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '../i18n/i18n';
 
 const testimonialsMeta = [
   { id: 1, image: '/images/testimonial-1.jpg', rating: 5 },

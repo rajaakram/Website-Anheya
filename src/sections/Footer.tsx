@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Facebook, Instagram, Mail, Phone, MapPin, ChevronDown } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES, type Locale } from '../i18n/i18n';
+import { useTranslation, SUPPORTED_LANGUAGES, type Locale } from '../i18n/i18n';
 
 const footerLinkHrefs = {
   experiences: ['#experiences', '#experiences', '#experiences', '#contact'],
@@ -12,9 +11,9 @@ const footerLinkHrefs = {
 const Footer = () => {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
-  const { t, i18n } = useTranslation();
-  const currentLangCode = i18n.resolvedLanguage || 'en';
-  const currentLang = SUPPORTED_LANGUAGES.find((l) => l.code === currentLangCode) || SUPPORTED_LANGUAGES[0];
+  const { t, locale, setLocale } = useTranslation();
+
+  const currentLang = SUPPORTED_LANGUAGES.find((l) => l.code === locale) || SUPPORTED_LANGUAGES[0];
 
   // Close dropdown on click outside
   useEffect(() => {
@@ -208,10 +207,10 @@ const Footer = () => {
                   <button
                     key={lang.code}
                     onClick={() => {
-                      i18n.changeLanguage(lang.code);
+                      setLocale(lang.code as Locale);
                       setLangDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors text-sm ${currentLangCode === lang.code
+                    className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors text-sm ${locale === lang.code
                       ? 'bg-[#E8B84B]/10 text-[#D94F3E] font-medium'
                       : 'text-charcoal hover:bg-gray-50'
                       }`}
