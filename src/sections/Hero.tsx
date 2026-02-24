@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowRight, MapPin, Calendar, Users } from 'lucide-react';
+import { ArrowRight, Calendar, Users, MapPin } from 'lucide-react';
 import { useTranslation } from '../i18n/i18n';
 
 const Hero = () => {
@@ -60,13 +60,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-32">
-        {/* Badge */}
-        <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-6">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm text-deep-olive text-sm font-medium">
-            <MapPin size={16} className="text-coral" />
-            {t('hero.badge')}
-          </span>
-        </div>
+
 
         {/* Main Title */}
         <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-charcoal leading-tight mb-6">

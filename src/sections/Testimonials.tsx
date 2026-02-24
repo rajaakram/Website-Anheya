@@ -85,13 +85,7 @@ const Testimonials = () => {
 
                 {/* Author */}
                 <div className="flex items-center gap-4 pt-4 border-t border-[#D8D5D0]/50">
-                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-[#E8B84B]">
-                    <img
-                      src={testimonial.image}
-                      alt={t(`testimonials.items.${index}.name`)}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+
                   <div>
                     <p className="font-heading font-semibold text-charcoal">
                       {t(`testimonials.items.${index}.name`)}
@@ -112,18 +106,7 @@ const Testimonials = () => {
         {/* Trust Badges */}
         <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-600 mt-16 flex flex-wrap items-center justify-center gap-8">
           <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-sm">
-            <div className="flex -space-x-2">
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="w-8 h-8 rounded-full bg-gradient-to-br from-[#E8B84B] to-[#D94F3E] border-2 border-white flex items-center justify-center"
-                >
-                  <span className="text-white text-xs font-bold">
-                    {String.fromCharCode(64 + i)}
-                  </span>
-                </div>
-              ))}
-            </div>
+
             <span className="text-sm text-deep-olive">
               <strong className="text-charcoal">5000+</strong> {t('testimonials.happyTravelers')}
             </span>
