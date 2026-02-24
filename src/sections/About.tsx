@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Heart, Leaf, Users, Award } from 'lucide-react';
-import { useTranslation } from '../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 
 const valueIcons = [
   { icon: Heart, color: 'coral' },

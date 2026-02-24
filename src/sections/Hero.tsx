@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { ArrowRight, Calendar, Users, MapPin } from 'lucide-react';
-import { useTranslation } from '../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
   const heroRef = useRef<HTMLElement>(null);

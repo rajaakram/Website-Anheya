@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { useTranslation } from '../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -81,8 +81,8 @@ const FAQ = () => {
             >
               <div
                 className={`bg-white rounded-2xl overflow-hidden transition-all duration-300 ${openIndex === index
-                    ? 'shadow-lg ring-2 ring-[#E8B84B]/30'
-                    : 'shadow-sm hover:shadow-md'
+                  ? 'shadow-lg ring-2 ring-[#E8B84B]/30'
+                  : 'shadow-sm hover:shadow-md'
                   }`}
               >
                 <button
@@ -95,8 +95,8 @@ const FAQ = () => {
                   </span>
                   <span
                     className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openIndex === index
-                        ? 'bg-[#E8B84B] text-white rotate-0'
-                        : 'bg-[#E8B84B]/10 text-[#E8B84B]'
+                      ? 'bg-[#E8B84B] text-white rotate-0'
+                      : 'bg-[#E8B84B]/10 text-[#E8B84B]'
                       }`}
                   >
                     {openIndex === index ? (
