@@ -58,18 +58,18 @@
     },
     "about": {
         "badge": "About Us",
-        "titleLine1": "Meet Teresa",
+        "titleLine1": "Meet the Team",
         "titleLine2": "",
-        "paragraph1": "Born and raised in the heart of Cilento, I've spent my life exploring every corner of this magical land. From the ancient Greek temples of Paestum to the hidden coves along the Mediterranean coast, I know Cilento like the back of my hand.",
-        "paragraph2": "What started as sharing my favorite local spots with friends has grown into a passion for creating unforgettable travel experiences. I believe that travel should be more than sightseeing—it should be about connection, culture, and creating memories that last a lifetime.",
-        "paragraph3": "Every experience I offer is personally curated, from meeting the buffalo mozzarella makers at dawn to sharing home-cooked meals with local families. I can't wait to share my Cilento with you.",
+        "paragraph1": "Rooted in the heart of Cilento, our team has spent years exploring every corner of this magical land. From the ancient Greek temples of Paestum to the hidden coves along the Mediterranean coast, we know Cilento like the back of our hand.",
+        "paragraph2": "What started as sharing favorite local spots with friends has grown into a passion for creating unforgettable travel experiences. We believe that travel should be more than sightseeing—it should be about connection, culture, and creating memories that last a lifetime.",
+        "paragraph3": "Every experience we offer is personally curated, from meeting the buffalo mozzarella makers at dawn to sharing home-cooked meals with local families. We can't wait to share our Cilento with you.",
         "floatingCardValue": "15+",
         "floatingCardLabel": "Years of Love",
         "floatingCardQuote": "\"Sharing our home with the world\"",
         "values": [
             {
-                "title": "Passionate Host",
-                "description": "Teresa personally curates every experience with love and dedication."
+                "title": "Passionate Hosts",
+                "description": "Our team personally curates every experience with love and dedication."
             },
             {
                 "title": "Sustainable Travel",
@@ -209,7 +209,7 @@
             "Cancellation Policy",
             "Travel Tips"
         ],
-        "copyright": "Felix Dream. All rights reserved.",
+        "copyright": "Paestum Holidays. All rights reserved.",
         "privacy": "Privacy Policy",
         "terms": "Terms of Service"
     }

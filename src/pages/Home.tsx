@@ -142,28 +142,28 @@ const Home = () => {
       {/* Hero Section */}
       <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/agnone-cilento.jpg)' }}
+          style={{ backgroundImage: 'url(/images/hero-background.jpg)' }}
         />
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
-        
+
         {/* Content */}
         <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-32 text-white">
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-6">
             <span className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
-              Felix Dream by Paestum Holidays
+              Paestum Holidays
             </span>
           </div>
 
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
             Discover the Soul of
-            <span className="block text-[#E8B84B]">Cilento</span>
+            <span className="block text-white">Cilento</span>
           </h1>
 
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Boutique travel experiences crafted with passion by Teresa. 
+            Boutique travel experiences crafted with passion by Teresa.
             Immerse yourself in authentic Italian culture, heritage, and natural beauty.
           </p>
 
@@ -180,7 +180,7 @@ const Home = () => {
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-400 flex flex-wrap items-center justify-center gap-8 md:gap-12">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                <Calendar size={20} className="text-[#E8B84B]" />
+                <Calendar size={20} className="text-[#F0C850]" />
               </div>
               <div className="text-left">
                 <p className="font-heading font-bold text-2xl text-white">15+</p>
@@ -189,7 +189,7 @@ const Home = () => {
             </div>
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                <Users size={20} className="text-[#1B8C5A]" />
+                <Users size={20} className="text-[#0F8A50]" />
               </div>
               <div className="text-left">
                 <p className="font-heading font-bold text-2xl text-white">5000+</p>
@@ -198,7 +198,7 @@ const Home = () => {
             </div>
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                <MapPin size={20} className="text-[#E8B84B]" />
+                <MapPin size={20} className="text-[#F0C850]" />
               </div>
               <div className="text-left">
                 <p className="font-heading font-bold text-2xl text-white">50+</p>
@@ -247,38 +247,38 @@ const Home = () => {
 
             {/* Content Side */}
             <div>
-              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
                 About Us
               </span>
 
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-                Meet <span className="text-transparent bg-clip-text gradient-warm">Teresa</span>
+                Meet the Team
               </h2>
 
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 space-y-4 text-deep-olive leading-relaxed mb-8">
                 <p>
-                  Born and raised in the heart of Cilento, I have spent my life exploring 
-                  every corner of this magical land. From the ancient Greek temples of 
-                  Paestum to the hidden coves along the Mediterranean coast, I know 
-                  Cilento like the back of my hand.
+                  Rooted in the heart of Cilento, our team has spent years exploring
+                  every corner of this magical land. From the ancient Greek temples of
+                  Paestum to the hidden coves along the Mediterranean coast, we know
+                  Cilento like the back of our hand.
                 </p>
                 <p>
-                  What started as sharing my favorite local spots with friends has grown 
-                  into a passion for creating unforgettable travel experiences. I believe 
-                  that travel should be more than sightseeing—it should be about connection, 
+                  What started as sharing favorite local spots with friends has grown
+                  into a passion for creating unforgettable travel experiences. We believe
+                  that travel should be more than sightseeing—it should be about connection,
                   culture, and creating memories that last a lifetime.
                 </p>
               </div>
 
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 grid grid-cols-2 gap-4">
                 {[
-                  { icon: Heart, title: 'Passionate Host', color: 'coral' },
+                  { icon: Heart, title: 'Passionate Hosts', color: 'coral' },
                   { icon: Leaf, title: 'Sustainable Travel', color: 'emerald' },
                   { icon: Users, title: 'Small Groups', color: 'golden' },
                   { icon: Award, title: 'Local Expertise', color: 'royal' },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-3 p-4 rounded-xl bg-[#F5EFE0]">
-                    <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 bg-${item.color === 'coral' ? '[#D94F3E]/10' : item.color === 'emerald' ? '[#1B8C5A]/10' : item.color === 'golden' ? '[#E8B84B]/10' : '[#2B4FA0]/10'}`}>
+                    <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 bg-${item.color === 'coral' ? '[#C73525]/10' : item.color === 'emerald' ? '[#0F8A50]/10' : item.color === 'golden' ? '[#F0C850]/10' : '[#1A3D9C]/10'}`}>
                       <item.icon size={18} className={`text-${item.color}`} />
                     </div>
                     <div>
@@ -295,17 +295,17 @@ const Home = () => {
       {/* Experiences Section */}
       <section ref={experiencesRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#E8B84B]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#F0C850]/10 text-[#C73525] text-sm font-medium mb-4">
               Our Experiences
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
               Crafted with Passion, <span className="text-transparent bg-clip-text gradient-warm">Designed for You</span>
             </h2>
             <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive text-lg leading-relaxed">
-              From culinary journeys to cultural adventures, each experience is thoughtfully 
+              From culinary journeys to cultural adventures, each experience is thoughtfully
               curated to immerse you in the authentic beauty of Cilento.
             </p>
           </div>
@@ -337,7 +337,7 @@ const Home = () => {
                     <p className="text-deep-olive text-sm leading-relaxed mb-4 flex-1">{exp.description}</p>
                     <div className="flex items-center justify-between pt-4 border-t border-[#D8D5D0]/50">
                       <span className="font-heading font-bold text-lg text-charcoal">{exp.price}</span>
-                      <Link to="/experiences" className="inline-flex items-center gap-2 text-[#2A9B9B] font-medium text-sm hover:text-[#2B4FA0] transition-colors">
+                      <Link to="/experiences" className="inline-flex items-center gap-2 text-[#2A9B9B] font-medium text-sm hover:text-[#1A3D9C] transition-colors">
                         Learn More <ArrowRight size={14} />
                       </Link>
                     </div>
@@ -362,15 +362,15 @@ const Home = () => {
         <div className="container-padding max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="order-2 lg:order-1">
-              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
                 Roots Holidays
               </span>
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
                 Discover Your <span className="text-transparent bg-clip-text gradient-warm">Italian Heritage</span>
               </h2>
               <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive leading-relaxed mb-6">
-                Reconnect with your ancestral roots through our specialized heritage journeys. 
-                We help you trace your family history, visit your ancestral villages, and 
+                Reconnect with your ancestral roots through our specialized heritage journeys.
+                We help you trace your family history, visit your ancestral villages, and
                 experience the authentic culture of your forebears.
               </p>
               <ul className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 space-y-3 mb-8">
@@ -382,8 +382,8 @@ const Home = () => {
                   'Professional photography sessions',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-deep-olive">
-                    <div className="w-5 h-5 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center flex-shrink-0">
-                      <div className="w-2 h-2 rounded-full bg-[#1B8C5A]" />
+                    <div className="w-5 h-5 rounded-full bg-[#0F8A50]/10 flex items-center justify-center flex-shrink-0">
+                      <div className="w-2 h-2 rounded-full bg-[#0F8A50]" />
                     </div>
                     {item}
                   </li>
@@ -410,10 +410,10 @@ const Home = () => {
       {/* Testimonials Section */}
       <section ref={testimonialsRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#2B4FA0]/10 text-[#2B4FA0] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1A3D9C]/10 text-[#1A3D9C] text-sm font-medium mb-4">
               Testimonials
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -430,7 +430,7 @@ const Home = () => {
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={16} className="text-[#E8B84B] fill-[#E8B84B]" />
+                    <Star key={i} size={16} className="text-[#F0C850] fill-[#F0C850]" />
                   ))}
                 </div>
                 <blockquote className="text-charcoal leading-relaxed mb-6 font-accent italic">
@@ -452,7 +452,7 @@ const Home = () => {
       <section ref={galleryRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Gallery
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -464,9 +464,8 @@ const Home = () => {
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className={`animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 overflow-hidden rounded-2xl ${
-                  index === 0 || index === 5 ? 'md:col-span-2 md:row-span-2' : ''
-                }`}
+                className={`animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 overflow-hidden rounded-2xl ${index === 0 || index === 5 ? 'md:col-span-2 md:row-span-2' : ''
+                  }`}
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
                 <img
@@ -483,24 +482,24 @@ const Home = () => {
       {/* Contact Section */}
       <section ref={contactRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
             <div>
-              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
                 Get in Touch
               </span>
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
                 Let's Plan Your <span className="text-transparent bg-clip-text gradient-warm">Dream Trip</span>
               </h2>
               <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive leading-relaxed mb-8">
-                Whether you're ready to book or just exploring options, I'd love to hear 
+                Whether you're ready to book or just exploring options, I'd love to hear
                 from you. Fill out the form and I'll get back to you within 24 hours.
               </p>
 
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 space-y-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#D94F3E]/10 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-[#C73525]/10 flex items-center justify-center">
                     <Mail size={20} className="text-coral" />
                   </div>
                   <div>
@@ -511,7 +510,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-[#0F8A50]/10 flex items-center justify-center">
                     <Phone size={20} className="text-emerald" />
                   </div>
                   <div>
@@ -522,7 +521,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#E8B84B]/10 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-[#F0C850]/10 flex items-center justify-center">
                     <MapPin size={20} className="text-golden" />
                   </div>
                   <div>
@@ -574,7 +573,7 @@ const Home = () => {
       <section id="faq" ref={faqRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               FAQ
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -594,9 +593,8 @@ const Home = () => {
                   className="w-full px-6 py-5 flex items-center justify-between gap-4 text-left"
                 >
                   <span className="font-heading font-semibold text-charcoal pr-4">{faq.question}</span>
-                  <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-                    openFaq === index ? 'bg-[#E8B84B] text-white' : 'bg-[#E8B84B]/10 text-[#E8B84B]'
-                  }`}>
+                  <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openFaq === index ? 'bg-[#F0C850] text-white' : 'bg-[#F0C850]/10 text-[#F0C850]'
+                    }`}>
                     {openFaq === index ? '−' : '+'}
                   </span>
                 </button>

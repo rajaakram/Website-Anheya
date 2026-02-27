@@ -58,18 +58,18 @@
     },
     "about": {
         "badge": "Chi Siamo",
-        "titleLine1": "Incontra Teresa",
+        "titleLine1": "Conosci il Team",
         "titleLine2": "",
-        "paragraph1": "Nata e cresciuta nel cuore del Cilento, ho trascorso la mia vita esplorando ogni angolo di questa terra magica. Dagli antichi templi greci di Paestum alle calette nascoste lungo la costa mediterranea, conosco il Cilento come le mie tasche.",
-        "paragraph2": "Quello che è iniziato condividendo i miei posti preferiti con gli amici è diventato una passione per la creazione di esperienze di viaggio indimenticabili. Credo che viaggiare debba essere più che fare turismo: deve essere connessione, cultura e creare ricordi che durano tutta la vita.",
-        "paragraph3": "Ogni esperienza che offro è curata personalmente, dall'incontro con i produttori di mozzarella di bufala all'alba alla condivisione di pasti fatti in casa con le famiglie locali. Non vedo l'ora di condividere il mio Cilento con te.",
+        "paragraph1": "Radicati nel cuore del Cilento, il nostro team ha trascorso anni esplorando ogni angolo di questa terra magica. Dagli antichi templi greci di Paestum alle calette nascoste lungo la costa mediterranea, conosciamo il Cilento come le nostre tasche.",
+        "paragraph2": "Quello che è iniziato condividendo i posti preferiti con gli amici è diventato una passione per la creazione di esperienze di viaggio indimenticabili. Crediamo che viaggiare debba essere più che fare turismo: deve essere connessione, cultura e creare ricordi che durano tutta la vita.",
+        "paragraph3": "Ogni esperienza che offriamo è curata personalmente, dall'incontro con i produttori di mozzarella di bufala all'alba alla condivisione di pasti fatti in casa con le famiglie locali. Non vediamo l'ora di condividere il nostro Cilento con te.",
         "floatingCardValue": "15+",
         "floatingCardLabel": "Anni di Amore",
         "floatingCardQuote": "\"Condividiamo la nostra casa con il mondo\"",
         "values": [
             {
-                "title": "Host Appassionata",
-                "description": "Teresa cura personalmente ogni esperienza con amore e dedizione."
+                "title": "Host Appassionati",
+                "description": "Il nostro team cura personalmente ogni esperienza con amore e dedizione."
             },
             {
                 "title": "Turismo Sostenibile",
@@ -209,7 +209,7 @@
             "Politica di Cancellazione",
             "Consigli di Viaggio"
         ],
-        "copyright": "Felix Dream. Tutti i diritti riservati.",
+        "copyright": "Paestum Holidays. Tutti i diritti riservati.",
         "privacy": "Politica sulla Privacy",
         "terms": "Termini di Servizio"
     }

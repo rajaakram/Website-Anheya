@@ -95,7 +95,7 @@ const About = () => {
 
           {/* Content Side */}
           <div>
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               {t('about.badge')}
             </span>
 
@@ -121,12 +121,12 @@ const About = () => {
                 >
                   <div
                     className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${value.color === 'coral'
-                      ? 'bg-[#D94F3E]/10'
+                      ? 'bg-[#C73525]/10'
                       : value.color === 'emerald'
-                        ? 'bg-[#1B8C5A]/10'
+                        ? 'bg-[#0F8A50]/10'
                         : value.color === 'golden'
-                          ? 'bg-[#E8B84B]/10'
-                          : 'bg-[#2B4FA0]/10'
+                          ? 'bg-[#F0C850]/10'
+                          : 'bg-[#1A3D9C]/10'
                       }`}
                   >
                     <value.icon

@@ -58,18 +58,18 @@
     },
     "about": {
         "badge": "Über Uns",
-        "titleLine1": "Lerne Teresa",
+        "titleLine1": "Lerne das Team",
         "titleLine2": " Kennen",
-        "paragraph1": "Im Herzen des Cilento geboren und aufgewachsen, habe ich mein Leben damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — ich kenne das Cilento wie meine Westentasche.",
-        "paragraph2": "Was als Teilen meiner Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Ich glaube, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
-        "paragraph3": "Jedes Erlebnis, das ich anbiete, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Ich kann es kaum erwarten, mein Cilento mit dir zu teilen.",
+        "paragraph1": "Im Herzen des Cilento verwurzelt, hat unser Team viele Jahre damit verbracht, jeden Winkel dieses magischen Landes zu erkunden. Von den antiken griechischen Tempeln von Paestum bis zu den versteckten Buchten an der Mittelmeerküste — wir kennen das Cilento wie unsere Westentasche.",
+        "paragraph2": "Was als Teilen von Lieblingsorte mit Freunden begann, ist zu einer Leidenschaft für unvergessliche Reiseerlebnisse geworden. Wir glauben, dass Reisen mehr sein sollte als Sightseeing — es geht um Verbindung, Kultur und das Schaffen von Erinnerungen, die ein Leben lang halten.",
+        "paragraph3": "Jedes Erlebnis, das wir anbieten, ist persönlich kuratiert — vom Treffen mit den Büffelmozzarella-Herstellern bei Sonnenaufgang bis zum Teilen von hausgemachten Mahlzeiten mit lokalen Familien. Wir können es kaum erwarten, unser Cilento mit dir zu teilen.",
         "floatingCardValue": "15+",
         "floatingCardLabel": "Jahre mit Herz",
         "floatingCardQuote": "\"Wir teilen unser Zuhause mit der Welt\"",
         "values": [
             {
-                "title": "Gastgeberin mit Herz",
-                "description": "Teresa gestaltet jedes Erlebnis persönlich mit Liebe und Hingabe."
+                "title": "Gastgeber mit Herz",
+                "description": "Unser Team gestaltet jedes Erlebnis persönlich mit Liebe und Hingabe."
             },
             {
                 "title": "Nachhaltiges Reisen",
@@ -209,7 +209,7 @@
             "Stornierungsbedingungen",
             "Reisetipps"
         ],
-        "copyright": "Felix Dream. Alle Rechte vorbehalten.",
+        "copyright": "Paestum Holidays. Alle Rechte vorbehalten.",
         "privacy": "Datenschutz",
         "terms": "AGB"
     }
