@@ -302,7 +302,7 @@ const Home = () => {
               Our Experiences
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-              Crafted with Passion, <span className="text-transparent bg-clip-text gradient-warm">Designed for You</span>
+              Crafted with Passion, <span>Designed for You</span>
             </h2>
             <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive text-lg leading-relaxed">
               From culinary journeys to cultural adventures, each experience is thoughtfully
@@ -366,7 +366,7 @@ const Home = () => {
                 Roots Holidays
               </span>
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-                Discover Your <span className="text-transparent bg-clip-text gradient-warm">Italian Heritage</span>
+                Discover Your <span>Italian Heritage</span>
               </h2>
               <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive leading-relaxed mb-6">
                 Reconnect with your ancestral roots through our specialized heritage journeys.
@@ -417,7 +417,7 @@ const Home = () => {
               Testimonials
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-              Stories from Our <span className="text-transparent bg-clip-text gradient-warm">Travelers</span>
+              Stories from Our <span>Travelers</span>
             </h2>
           </div>
 
@@ -456,7 +456,7 @@ const Home = () => {
               Gallery
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-              Cilento <span className="text-transparent bg-clip-text gradient-warm">Through Our Eyes</span>
+              Cilento <span>Through Our Eyes</span>
             </h2>
           </div>
 
@@ -490,7 +490,7 @@ const Home = () => {
                 Get in Touch
               </span>
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-                Let's Plan Your <span className="text-transparent bg-clip-text gradient-warm">Dream Trip</span>
+                Let's Plan Your <span>Dream Trip</span>
               </h2>
               <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-deep-olive leading-relaxed mb-8">
                 Whether you're ready to book or just exploring options, I'd love to hear
@@ -577,7 +577,7 @@ const Home = () => {
               FAQ
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
-              Frequently Asked <span className="text-transparent bg-clip-text gradient-warm">Questions</span>
+              Frequently Asked <span>Questions</span>
             </h2>
           </div>
 
