@@ -70,12 +70,12 @@ const About = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section ref={heroRef} className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/images/cilento-panoramic.jpg)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
-        
+
         <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-16 text-white">
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-4">
             <span className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
@@ -83,13 +83,13 @@ const About = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            About <span className="text-[#E8B84B]">Felix Dream</span>
+            About <span className="text-[#F0C850]">Paestum Holidays</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Crafting unforgettable experiences in the heart of Cilento since 2009.
           </p>
         </div>
-        
+
         <WaveDivider color="#FEFBF7" />
       </section>
 
@@ -108,7 +108,7 @@ const About = () => {
             </div>
 
             <div>
-              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+              <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
                 Teresa's Story
               </span>
               <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -116,19 +116,19 @@ const About = () => {
               </h2>
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 space-y-4 text-deep-olive leading-relaxed">
                 <p>
-                  I was born and raised in Capaccio Paestum, surrounded by the ancient Greek temples, 
-                  rolling olive groves, and the endless blue of the Mediterranean. This land is not 
+                  I was born and raised in Capaccio Paestum, surrounded by the ancient Greek temples,
+                  rolling olive groves, and the endless blue of the Mediterranean. This land is not
                   just where I live—it's who I am.
                 </p>
                 <p>
-                  After years of sharing my favorite local spots with friends and family, I realized 
-                  that my passion for Cilento could become something more. In 2009, Felix Dream was born 
+                  After years of sharing my favorite local spots with friends and family, I realized
+                  that my passion for Cilento could become something more. In 2009, Paestum Holidays was born
                   with a simple mission: to help others experience the authentic beauty of my homeland.
                 </p>
                 <p>
-                  Every experience I create is deeply personal. I know the best buffalo mozzarella farms, 
-                  the hidden beaches only locals know about, and the families who will welcome you like 
-                  one of their own. This isn't just a business for me—it's my way of sharing the magic 
+                  Every experience I create is deeply personal. I know the best buffalo mozzarella farms,
+                  the hidden beaches only locals know about, and the families who will welcome you like
+                  one of their own. This isn't just a business for me—it's my way of sharing the magic
                   of Cilento with the world.
                 </p>
               </div>
@@ -140,10 +140,10 @@ const About = () => {
       {/* Values Section */}
       <section ref={valuesRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Our Values
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -158,8 +158,8 @@ const About = () => {
                 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl p-6 text-center"
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
-                <div className="w-14 h-14 rounded-full bg-[#E8B84B]/10 flex items-center justify-center mx-auto mb-4">
-                  <value.icon size={24} className="text-[#E8B84B]" />
+                <div className="w-14 h-14 rounded-full bg-[#F0C850]/10 flex items-center justify-center mx-auto mb-4">
+                  <value.icon size={24} className="text-[#F0C850]" />
                 </div>
                 <h3 className="font-heading font-semibold text-lg text-charcoal mb-2">{value.title}</h3>
                 <p className="text-deep-olive text-sm">{value.description}</p>
@@ -174,7 +174,7 @@ const About = () => {
       {/* Team Connection */}
       <section ref={teamRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-4xl mx-auto text-center">
-          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#2B4FA0]/10 text-[#2B4FA0] text-sm font-medium mb-4">
+          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1A3D9C]/10 text-[#1A3D9C] text-sm font-medium mb-4">
             Local Expertise
           </span>
           <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -182,12 +182,12 @@ const About = () => {
           </h2>
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 space-y-4 text-deep-olive leading-relaxed max-w-2xl mx-auto">
             <p>
-              Over the years, I've built relationships with local farmers, artisans, chefs, and families 
+              Over the years, I've built relationships with local farmers, artisans, chefs, and families
               throughout Cilento. These connections allow me to offer experiences that go far beyond typical tourism.
             </p>
             <p>
-              When you travel with Felix Dream, you're not just a tourist—you're a guest in our community. 
-              You'll meet the people who make Cilento special, taste recipes passed down through generations, 
+              When you travel with Paestum Holidays, you're not just a tourist—you're a guest in our community.
+              You'll meet the people who make Cilento special, taste recipes passed down through generations,
               and discover places that don't appear in guidebooks.
             </p>
           </div>
@@ -197,10 +197,10 @@ const About = () => {
       {/* Trust Signals */}
       <section ref={trustRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#E8B84B]/10 text-[#E8B84B] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#F0C850]/10 text-[#F0C850] text-sm font-medium mb-4">
               Why Choose Us
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -223,15 +223,15 @@ const About = () => {
 
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-500 mt-12 flex flex-wrap items-center justify-center gap-8">
             <div className="flex items-center gap-2">
-              <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
+              <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
               <span className="text-charcoal font-medium">TripAdvisor Excellence</span>
             </div>
             <div className="flex items-center gap-2">
-              <Calendar size={20} className="text-[#1B8C5A]" />
+              <Calendar size={20} className="text-[#0F8A50]" />
               <span className="text-charcoal font-medium">Since 2009</span>
             </div>
             <div className="flex items-center gap-2">
-              <Globe size={20} className="text-[#2B4FA0]" />
+              <Globe size={20} className="text-[#1A3D9C]" />
               <span className="text-charcoal font-medium">Multilingual Team</span>
             </div>
           </div>
@@ -244,7 +244,7 @@ const About = () => {
       <section ref={galleryRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               Gallery
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -256,9 +256,8 @@ const About = () => {
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className={`animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 overflow-hidden rounded-2xl ${
-                  index === 0 || index === 5 ? 'md:col-span-2 md:row-span-2' : ''
-                }`}
+                className={`animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 overflow-hidden rounded-2xl ${index === 0 || index === 5 ? 'md:col-span-2 md:row-span-2' : ''
+                  }`}
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
                 <img

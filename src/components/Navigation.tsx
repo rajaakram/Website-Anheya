@@ -27,23 +27,24 @@ const Navigation = ({ scrolled }: NavigationProps) => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-[#FEFBF7]/95 backdrop-blur-md shadow-md'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <nav className="container-padding max-w-7xl mx-auto flex items-center justify-between py-4 md:py-5">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full gradient-warm flex items-center justify-center">
-            <span className="text-white font-bold text-lg">F</span>
-          </div>
+          <img
+            src="/images/paestum-holidays-icon.svg"
+            alt="Paestum Holidays"
+            className="w-10 h-10 object-contain"
+          />
           <div className="hidden sm:block">
             <span className="font-heading font-semibold text-lg text-charcoal leading-tight block">
-              FELIX DREAM
+              PAESTUM HOLIDAYS
             </span>
-            <span className="text-xs text-deep-olive">By Paestum Holidays</span>
+            <span className="text-xs text-deep-olive">Curated Travel Experiences</span>
           </div>
         </Link>
 
@@ -80,20 +81,18 @@ const Navigation = ({ scrolled }: NavigationProps) => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-full left-0 right-0 bg-[#FEFBF7]/98 backdrop-blur-md shadow-lg transition-all duration-300 ${
-          mobileMenuOpen
+        className={`lg:hidden absolute top-full left-0 right-0 bg-[#FEFBF7]/98 backdrop-blur-md shadow-lg transition-all duration-300 ${mobileMenuOpen
             ? 'opacity-100 translate-y-0'
             : 'opacity-0 -translate-y-4 pointer-events-none'
-        }`}
+          }`}
       >
         <ul className="container-padding py-6 flex flex-col gap-4">
           {navLinks.map((link) => (
             <li key={link.href}>
               <Link
                 to={link.href}
-                className={`block py-2 font-medium transition-colors ${
-                  isActive(link.href) ? 'text-coral' : 'text-charcoal hover:text-coral'
-                }`}
+                className={`block py-2 font-medium transition-colors ${isActive(link.href) ? 'text-coral' : 'text-charcoal hover:text-coral'
+                  }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.label}

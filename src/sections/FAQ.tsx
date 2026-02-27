@@ -57,7 +57,7 @@ const FAQ = () => {
       <div className="container-padding max-w-4xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
             {t('faq.badge')}
           </span>
           <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -81,7 +81,7 @@ const FAQ = () => {
             >
               <div
                 className={`bg-white rounded-2xl overflow-hidden transition-all duration-300 ${openIndex === index
-                  ? 'shadow-lg ring-2 ring-[#E8B84B]/30'
+                  ? 'shadow-lg ring-2 ring-[#F0C850]/30'
                   : 'shadow-sm hover:shadow-md'
                   }`}
               >
@@ -95,8 +95,8 @@ const FAQ = () => {
                   </span>
                   <span
                     className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openIndex === index
-                      ? 'bg-[#E8B84B] text-white rotate-0'
-                      : 'bg-[#E8B84B]/10 text-[#E8B84B]'
+                      ? 'bg-[#F0C850] text-white rotate-0'
+                      : 'bg-[#F0C850]/10 text-[#F0C850]'
                       }`}
                   >
                     {openIndex === index ? (

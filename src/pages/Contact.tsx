@@ -91,7 +91,7 @@ const Contact = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Contact <span className="text-[#E8B84B]">Teresa</span>
+            Contact <span className="text-[#F0C850]">Teresa</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Ready to plan your Cilento adventure? I'm here to help you create unforgettable memories.
@@ -118,13 +118,13 @@ const Contact = () => {
                     className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 flex items-start gap-4"
                     style={{ transitionDelay: `${(index + 1) * 100}ms` }}
                   >
-                    <div className="w-12 h-12 rounded-full bg-[#E8B84B]/10 flex items-center justify-center flex-shrink-0">
-                      <item.icon size={20} className="text-[#E8B84B]" />
+                    <div className="w-12 h-12 rounded-full bg-[#F0C850]/10 flex items-center justify-center flex-shrink-0">
+                      <item.icon size={20} className="text-[#F0C850]" />
                     </div>
                     <div>
                       <p className="text-sm text-deep-olive">{item.label}</p>
                       <p className="font-medium text-charcoal">{item.value}</p>
-                      <a href={item.href} className="text-sm text-[#2A9B9B] hover:text-[#2B4FA0] transition-colors">
+                      <a href={item.href} className="text-sm text-[#2A9B9B] hover:text-[#1A3D9C] transition-colors">
                         {item.action} →
                       </a>
                     </div>
@@ -134,7 +134,7 @@ const Contact = () => {
 
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-500 p-6 bg-[#F5EFE0] rounded-2xl">
                 <div className="flex items-center gap-3 mb-4">
-                  <Clock size={20} className="text-[#1B8C5A]" />
+                  <Clock size={20} className="text-[#0F8A50]" />
                   <h3 className="font-heading font-semibold text-charcoal">Response Time</h3>
                 </div>
                 <p className="text-deep-olive text-sm">We respond within 24 hours. For urgent enquiries, WhatsApp is the fastest way to reach Teresa.</p>
@@ -142,7 +142,7 @@ const Contact = () => {
 
               <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-600 p-6 bg-[#F5EFE0] rounded-2xl mt-4">
                 <div className="flex items-center gap-3 mb-4">
-                  <Globe size={20} className="text-[#2B4FA0]" />
+                  <Globe size={20} className="text-[#1A3D9C]" />
                   <h3 className="font-heading font-semibold text-charcoal">Languages</h3>
                 </div>
                 <p className="text-deep-olive text-sm mb-3">We speak:</p>
@@ -161,8 +161,8 @@ const Contact = () => {
               <div className="bg-white rounded-3xl p-8 md:p-10 shadow-xl">
                 {formSubmitted ? (
                   <div className="text-center py-8">
-                    <div className="w-16 h-16 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center mx-auto mb-4">
-                      <Check size={32} className="text-[#1B8C5A]" />
+                    <div className="w-16 h-16 rounded-full bg-[#0F8A50]/10 flex items-center justify-center mx-auto mb-4">
+                      <Check size={32} className="text-[#0F8A50]" />
                     </div>
                     <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">Message Sent!</h3>
                     <p className="text-deep-olive">Thank you for reaching out. Teresa will be in touch soon!</p>
@@ -209,7 +209,7 @@ const Contact = () => {
         
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               FAQ About Booking
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -230,7 +230,7 @@ const Contact = () => {
                 >
                   <span className="font-heading font-semibold text-charcoal pr-4">{faq.question}</span>
                   <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-                    openFaq === index ? 'bg-[#E8B84B] text-white' : 'bg-[#E8B84B]/10 text-[#E8B84B]'
+                    openFaq === index ? 'bg-[#F0C850] text-white' : 'bg-[#F0C850]/10 text-[#F0C850]'
                   }`}>
                     {openFaq === index ? '−' : '+'}
                   </span>

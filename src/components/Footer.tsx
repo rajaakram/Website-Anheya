@@ -57,18 +57,20 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full gradient-warm flex items-center justify-center">
-                <span className="text-white font-bold text-xl">F</span>
-              </div>
+              <img
+                src="/images/paestum-holidays-icon.svg"
+                alt="Paestum Holidays"
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <span className="font-heading font-semibold text-xl block">
-                  FELIX DREAM
+                  PAESTUM HOLIDAYS
                 </span>
-                <span className="text-sm text-white/60">By Paestum Holidays</span>
+                <span className="text-sm text-white/60">Curated Travel Experiences</span>
               </div>
             </Link>
             <p className="text-white/70 leading-relaxed mb-6 max-w-sm">
-              Boutique travel experiences in the heart of Cilento, Italy. 
+              Boutique travel experiences in the heart of Cilento, Italy.
               Crafted with passion by Teresa since 2009.
             </p>
 
@@ -76,21 +78,21 @@ const Footer = () => {
             <div className="flex gap-3">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
               </a>
               <a
                 href="mailto:info@paestumholidays.com"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Email"
               >
                 <Mail size={18} />
@@ -108,7 +110,7 @@ const Footer = () => {
                 <li key={link.label}>
                   <Link
                     to={link.href}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -127,7 +129,7 @@ const Footer = () => {
                 <li key={link.label}>
                   <Link
                     to={link.href}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -146,7 +148,7 @@ const Footer = () => {
                 <li key={link.label}>
                   <Link
                     to={link.href}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -161,14 +163,14 @@ const Footer = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
             <a
               href="mailto:info@paestumholidays.com"
-              className="flex items-center gap-2 text-white/70 hover:text-[#E8B84B] transition-colors"
+              className="flex items-center gap-2 text-white/70 hover:text-[#F0C850] transition-colors"
             >
               <Mail size={16} />
               <span className="text-sm">info@paestumholidays.com</span>
             </a>
             <a
               href="tel:+390123456789"
-              className="flex items-center gap-2 text-white/70 hover:text-[#E8B84B] transition-colors"
+              className="flex items-center gap-2 text-white/70 hover:text-[#F0C850] transition-colors"
             >
               <Phone size={16} />
               <span className="text-sm">+39 012 345 6789</span>
@@ -184,7 +186,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <p className="text-white/50 text-sm text-center md:text-left">
-            © {new Date().getFullYear()} Felix Dream by Paestum Holidays. All rights reserved.
+            © {new Date().getFullYear()} Paestum Holidays. All rights reserved.
           </p>
 
           {/* Language Selector */}
@@ -211,11 +213,10 @@ const Footer = () => {
                       setCurrentLang(lang);
                       setLangDropdownOpen(false);
                     }}
-                    className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-100 transition-colors ${
-                      currentLang.code === lang.code
-                        ? 'bg-[#E8B84B]/10 text-[#D94F3E]'
+                    className={`w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-gray-100 transition-colors ${currentLang.code === lang.code
+                        ? 'bg-[#F0C850]/10 text-[#C73525]'
                         : 'text-charcoal'
-                    }`}
+                      }`}
                   >
                     <span>{lang.flag}</span>
                     <span className="text-sm">{lang.name}</span>
@@ -227,10 +228,10 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div className="flex items-center gap-4 text-sm">
-            <a href="#" className="text-white/50 hover:text-[#E8B84B] transition-colors">
+            <a href="#" className="text-white/50 hover:text-[#F0C850] transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-white/50 hover:text-[#E8B84B] transition-colors">
+            <a href="#" className="text-white/50 hover:text-[#F0C850] transition-colors">
               Terms of Service
             </a>
           </div>

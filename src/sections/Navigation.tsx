@@ -46,15 +46,15 @@ const Navigation = ({ scrolled }: NavigationProps) => {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3">
           <img
-            src="/images/logo.svg"
-            alt="Felix Dream"
+            src="/images/paestum-holidays-icon.svg"
+            alt="Paestum Holidays"
             className="w-10 h-10 object-contain"
           />
           <div className="hidden sm:flex flex-col">
-            <span className="font-heading font-bold text-xl text-charcoal uppercase tracking-widest leading-none">
-              Felix Dream
+            <span className={`font-heading font-bold text-xl uppercase tracking-widest leading-none transition-colors duration-300 ${scrolled ? 'text-charcoal' : 'text-white'}`}>
+              Paestum Holidays
             </span>
-            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-deep-olive mt-1.5 font-medium">
+            <span className={`text-[0.6rem] uppercase tracking-[0.2em] mt-1.5 font-medium transition-colors duration-300 ${scrolled ? 'text-deep-olive' : 'text-white/70'}`}>
               {t('nav.tagline')}
             </span>
           </div>
@@ -64,7 +64,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
         <ul className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="nav-link text-sm">
+              <a href={link.href} className={`nav-link text-sm transition-colors duration-300 ${scrolled ? '' : '!text-white hover:!text-white/80'}`}>
                 {link.label}
               </a>
             </li>
@@ -79,7 +79,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
               onClick={(e) => { e.stopPropagation(); setLangDropdownOpen(!langDropdownOpen); }}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-full text-sm transition-all duration-200 ${scrolled
                 ? 'bg-charcoal/5 hover:bg-charcoal/10 text-charcoal'
-                : 'bg-white/30 hover:bg-white/50 text-charcoal backdrop-blur-sm'
+                : 'bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm'
                 }`}
               aria-label="Change language"
             >
@@ -101,7 +101,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
                       setLangDropdownOpen(false);
                     }}
                     className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors text-sm ${i18n.resolvedLanguage === lang.code
-                      ? 'bg-[#E8B84B]/10 text-[#D94F3E] font-medium'
+                      ? 'bg-[#F0C850]/10 text-[#C73525] font-medium'
                       : 'text-charcoal hover:bg-gray-50'
                       }`}
                   >
@@ -128,7 +128,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
           <div className="relative" ref={langRef}>
             <button
               onClick={(e) => { e.stopPropagation(); setLangDropdownOpen(!langDropdownOpen); }}
-              className="flex items-center gap-1 p-2 text-charcoal rounded-full hover:bg-charcoal/5 transition-colors"
+              className={`flex items-center gap-1 p-2 rounded-full transition-colors ${scrolled ? 'text-charcoal hover:bg-charcoal/5' : 'text-white hover:bg-white/10'}`}
               aria-label="Change language"
             >
               <span className="text-base">{currentLang.flag}</span>
@@ -146,7 +146,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
                       setLangDropdownOpen(false);
                     }}
                     className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors text-sm ${i18n.resolvedLanguage === lang.code
-                      ? 'bg-[#E8B84B]/10 text-[#D94F3E] font-medium'
+                      ? 'bg-[#F0C850]/10 text-[#C73525] font-medium'
                       : 'text-charcoal hover:bg-gray-50'
                       }`}
                   >
@@ -159,7 +159,7 @@ const Navigation = ({ scrolled }: NavigationProps) => {
           </div>
 
           <button
-            className="p-2 text-charcoal"
+            className={`p-2 transition-colors duration-300 ${scrolled ? 'text-charcoal' : 'text-white'}`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >

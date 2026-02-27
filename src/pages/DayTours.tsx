@@ -101,12 +101,12 @@ const DayTours = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section ref={heroRef} className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/images/paestum-temples.jpg)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
-        
+
         <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-16 text-white">
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-4">
             <span className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
@@ -114,13 +114,13 @@ const DayTours = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Day <span className="text-[#E8B84B]">Excursions</span>
+            Day <span className="text-[#C73525]">Excursions</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Discover the best of Cilento and Campania in a single day. Expertly guided tours to unforgettable destinations.
           </p>
         </div>
-        
+
         <WaveDivider color="#FEFBF7" />
       </section>
 
@@ -169,7 +169,7 @@ const DayTours = () => {
                     <ul className="grid grid-cols-2 gap-2">
                       {tour.includes.map((item) => (
                         <li key={item} className="flex items-center gap-2 text-sm text-deep-olive">
-                          <Check size={14} className="text-[#1B8C5A]" />
+                          <Check size={14} className="text-[#0F8A50]" />
                           {item}
                         </li>
                       ))}
@@ -193,7 +193,7 @@ const DayTours = () => {
               Want a custom day tour?
             </h3>
             <p className="text-deep-olive mb-6 max-w-xl mx-auto">
-              We can design a personalized day tour based on your interests and schedule. 
+              We can design a personalized day tour based on your interests and schedule.
               Contact Teresa to plan your perfect day in Cilento.
             </p>
             <Link to="/contact" className="btn-secondary">

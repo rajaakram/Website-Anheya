@@ -82,7 +82,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Side - Info */}
           <div>
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               {t('contact.badge')}
             </span>
 
@@ -100,7 +100,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 space-y-6 mb-8">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#D94F3E]/10 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-full bg-[#C73525]/10 flex items-center justify-center">
                   <Mail size={20} className="text-coral" />
                 </div>
                 <div>
@@ -115,7 +115,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-full bg-[#0F8A50]/10 flex items-center justify-center">
                   <Phone size={20} className="text-emerald" />
                 </div>
                 <div>
@@ -130,7 +130,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#E8B84B]/10 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-full bg-[#F0C850]/10 flex items-center justify-center">
                   <MapPin size={20} className="text-golden" />
                 </div>
                 <div>
@@ -145,7 +145,7 @@ const Contact = () => {
             {/* Hosts */}
             <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-400 flex items-center gap-4 p-6 rounded-2xl bg-white shadow-sm">
               <div className="flex">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1B8C5A] to-[#2B4FA0] flex items-center justify-center border-2 border-white">
+                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#0F8A50] to-[#1A3D9C] flex items-center justify-center border-2 border-white">
                   <span className="text-white font-bold">T</span>
                 </div>
               </div>
@@ -179,7 +179,7 @@ const Contact = () => {
 
               {isSubmitted ? (
                 <div className="text-center py-12">
-                  <div className="w-16 h-16 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 rounded-full bg-[#0F8A50]/10 flex items-center justify-center mx-auto mb-4">
                     <CheckCircle size={32} className="text-emerald" />
                   </div>
                   <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">

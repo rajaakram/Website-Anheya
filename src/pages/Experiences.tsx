@@ -94,12 +94,12 @@ const Experiences = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section ref={heroRef} className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/images/cilento-sunset.jpg)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
-        
+
         <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-16 text-white">
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-4">
             <span className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
@@ -107,13 +107,13 @@ const Experiences = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Our <span className="text-[#E8B84B]">Experiences</span>
+            Our <span className="text-[#C73525]">Experiences</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Curated journeys designed to immerse you in the authentic beauty, culture, and flavors of Cilento and Campania.
           </p>
         </div>
-        
+
         <WaveDivider color="#FEFBF7" />
       </section>
 
@@ -136,7 +136,7 @@ const Experiences = () => {
                       style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 90%, 90% 100%, 10% 100%, 0% 90%)' }}
                     />
                     <div className="absolute top-4 right-4 flex items-center gap-1 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                      <Star size={14} className="text-[#E8B84B] fill-[#E8B84B]" />
+                      <Star size={14} className="text-[#F0C850] fill-[#F0C850]" />
                       <span className="text-sm font-medium text-charcoal">{pkg.rating}</span>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ const Experiences = () => {
                     <ul className="grid grid-cols-2 gap-2">
                       {pkg.highlights.map((highlight) => (
                         <li key={highlight} className="flex items-center gap-2 text-sm text-deep-olive">
-                          <Check size={14} className="text-[#1B8C5A]" />
+                          <Check size={14} className="text-[#0F8A50]" />
                           {highlight}
                         </li>
                       ))}
@@ -194,7 +194,7 @@ const Experiences = () => {
               Looking for something custom?
             </h3>
             <p className="text-deep-olive mb-6 max-w-xl mx-auto">
-              We create personalized itineraries tailored to your interests, timeline, and budget. 
+              We create personalized itineraries tailored to your interests, timeline, and budget.
               Let us design your perfect Cilento experience.
             </p>
             <Link to="/contact" className="btn-secondary">

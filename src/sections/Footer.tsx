@@ -56,13 +56,13 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <a href="#home" className="flex items-center gap-3 mb-6">
               <img
-                src="/images/logo.svg"
-                alt="Felix Dream"
+                src="/images/paestum-holidays-icon.svg"
+                alt="Paestum Holidays"
                 className="w-12 h-12 object-contain"
               />
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-2xl uppercase tracking-widest leading-none text-white">
-                  Felix Dream
+                  Paestum Holidays
                 </span>
                 <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/60 mt-1.5 font-medium">
                   {t('nav.tagline')}
@@ -77,21 +77,21 @@ const Footer = () => {
             <div className="flex gap-3">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
               </a>
               <a
                 href="mailto:info@paestumholidays.com"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E8B84B] transition-colors duration-200"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F0C850] transition-colors duration-200"
                 aria-label="Email"
               >
                 <Mail size={18} />
@@ -109,7 +109,7 @@ const Footer = () => {
                 <li key={i}>
                   <a
                     href={footerLinkHrefs.experiences[i]}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {label}
                   </a>
@@ -128,7 +128,7 @@ const Footer = () => {
                 <li key={i}>
                   <a
                     href={footerLinkHrefs.company[i]}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {label}
                   </a>
@@ -147,7 +147,7 @@ const Footer = () => {
                 <li key={i}>
                   <a
                     href={footerLinkHrefs.support[i]}
-                    className="text-white/70 hover:text-[#E8B84B] transition-colors duration-200"
+                    className="text-white/70 hover:text-[#F0C850] transition-colors duration-200"
                   >
                     {label}
                   </a>
@@ -162,14 +162,14 @@ const Footer = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
             <a
               href="mailto:info@paestumholidays.com"
-              className="flex items-center gap-2 text-white/70 hover:text-[#E8B84B] transition-colors"
+              className="flex items-center gap-2 text-white/70 hover:text-[#F0C850] transition-colors"
             >
               <Mail size={16} />
               <span className="text-sm">info@paestumholidays.com</span>
             </a>
             <a
               href="tel:+390123456789"
-              className="flex items-center gap-2 text-white/70 hover:text-[#E8B84B] transition-colors"
+              className="flex items-center gap-2 text-white/70 hover:text-[#F0C850] transition-colors"
             >
               <Phone size={16} />
               <span className="text-sm">+39 012 345 6789</span>
@@ -213,7 +213,7 @@ const Footer = () => {
                       setLangDropdownOpen(false);
                     }}
                     className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors text-sm ${i18n.resolvedLanguage === lang.code
-                      ? 'bg-[#E8B84B]/10 text-[#D94F3E] font-medium'
+                      ? 'bg-[#F0C850]/10 text-[#C73525] font-medium'
                       : 'text-charcoal hover:bg-gray-50'
                       }`}
                   >
@@ -229,13 +229,13 @@ const Footer = () => {
           <div className="flex items-center gap-4 text-sm">
             <a
               href="#"
-              className="text-white/50 hover:text-[#E8B84B] transition-colors"
+              className="text-white/50 hover:text-[#F0C850] transition-colors"
             >
               {t('footer.privacy')}
             </a>
             <a
               href="#"
-              className="text-white/50 hover:text-[#E8B84B] transition-colors"
+              className="text-white/50 hover:text-[#F0C850] transition-colors"
             >
               {t('footer.terms')}
             </a>

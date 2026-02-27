@@ -103,7 +103,7 @@ const RootsHolidays = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Discover Your <span className="text-[#E8B84B]">Heritage</span>
+            Discover Your <span className="text-[#F0C850]">Heritage</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Reconnect with your Italian roots through personalized genealogy research and ancestral village visits in the heart of Cilento.
@@ -117,7 +117,7 @@ const RootsHolidays = () => {
       <section ref={servicesRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               Our Services
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -132,8 +132,8 @@ const RootsHolidays = () => {
                 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-shadow"
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
-                <div className="w-12 h-12 rounded-full bg-[#E8B84B]/10 flex items-center justify-center mb-4">
-                  <service.icon size={24} className="text-[#E8B84B]" />
+                <div className="w-12 h-12 rounded-full bg-[#F0C850]/10 flex items-center justify-center mb-4">
+                  <service.icon size={24} className="text-[#F0C850]" />
                 </div>
                 <h3 className="font-heading font-semibold text-lg text-charcoal mb-2">{service.title}</h3>
                 <p className="text-deep-olive text-sm">{service.description}</p>
@@ -149,7 +149,7 @@ const RootsHolidays = () => {
         
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Sample Itinerary
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -167,7 +167,7 @@ const RootsHolidays = () => {
                 <div className="flex-shrink-0 w-12 h-12 rounded-full gradient-warm flex items-center justify-center">
                   <span className="text-white font-bold">{day.day}</span>
                 </div>
-                <div className="flex-1 pb-6 border-l-2 border-[#E8B84B]/30 pl-6">
+                <div className="flex-1 pb-6 border-l-2 border-[#F0C850]/30 pl-6">
                   <h3 className="font-heading font-semibold text-lg text-charcoal mb-1">{day.title}</h3>
                   <p className="text-deep-olive text-sm">{day.description}</p>
                 </div>
@@ -183,7 +183,7 @@ const RootsHolidays = () => {
       <section ref={profilesRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#2B4FA0]/10 text-[#2B4FA0] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1A3D9C]/10 text-[#1A3D9C] text-sm font-medium mb-4">
               Who We Serve
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -212,7 +212,7 @@ const RootsHolidays = () => {
         
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               FAQ
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -233,7 +233,7 @@ const RootsHolidays = () => {
                 >
                   <span className="font-heading font-semibold text-charcoal pr-4">{faq.question}</span>
                   <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-                    openFaq === index ? 'bg-[#E8B84B] text-white' : 'bg-[#E8B84B]/10 text-[#E8B84B]'
+                    openFaq === index ? 'bg-[#F0C850] text-white' : 'bg-[#F0C850]/10 text-[#F0C850]'
                   }`}>
                     {openFaq === index ? '−' : '+'}
                   </span>
@@ -255,7 +255,7 @@ const RootsHolidays = () => {
       <section ref={formRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Start Your Journey
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -269,8 +269,8 @@ const RootsHolidays = () => {
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 bg-white rounded-3xl p-8 md:p-10 shadow-xl">
             {formSubmitted ? (
               <div className="text-center py-8">
-                <div className="w-16 h-16 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center mx-auto mb-4">
-                  <Check size={32} className="text-[#1B8C5A]" />
+                <div className="w-16 h-16 rounded-full bg-[#0F8A50]/10 flex items-center justify-center mx-auto mb-4">
+                  <Check size={32} className="text-[#0F8A50]" />
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">Thank You!</h3>
                 <p className="text-deep-olive">Teresa will be in touch within 24 hours.</p>

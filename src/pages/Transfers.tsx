@@ -90,12 +90,12 @@ const Transfers = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section ref={heroRef} className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/images/agnone-cilento.jpg)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
-        
+
         <div className="relative z-10 container-padding max-w-5xl mx-auto text-center pt-24 pb-16 text-white">
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 mb-4">
             <span className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
@@ -103,14 +103,14 @@ const Transfers = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Arrivals & <span className="text-[#E8B84B]">Transfers</span>
+            Arrivals & <span className="text-[#C73525]">Transfers</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Seamless transfers from airports and cities to your Cilento destination. 
+            Seamless transfers from airports and cities to your Cilento destination.
             Comfortable, reliable, and scenic journeys.
           </p>
         </div>
-        
+
         <WaveDivider color="#FEFBF7" />
       </section>
 
@@ -118,7 +118,7 @@ const Transfers = () => {
       <section ref={routesRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               Popular Routes
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -187,10 +187,10 @@ const Transfers = () => {
       {/* Booking Form */}
       <section ref={formRef} className="relative section-padding bg-[#F5EFE0]">
         <WaveDivider flip color="#F5EFE0" />
-        
+
         <div className="container-padding max-w-4xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Book Your Transfer
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -201,8 +201,8 @@ const Transfers = () => {
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 bg-white rounded-3xl p-8 md:p-10 shadow-xl">
             {formSubmitted ? (
               <div className="text-center py-8">
-                <div className="w-16 h-16 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center mx-auto mb-4">
-                  <Check size={32} className="text-[#1B8C5A]" />
+                <div className="w-16 h-16 rounded-full bg-[#0F8A50]/10 flex items-center justify-center mx-auto mb-4">
+                  <Check size={32} className="text-[#0F8A50]" />
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">Request Received!</h3>
                 <p className="text-deep-olive">Teresa will confirm your transfer within 24 hours.</p>

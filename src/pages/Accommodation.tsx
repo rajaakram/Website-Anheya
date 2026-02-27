@@ -91,17 +91,17 @@ const Accommodation = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Villa <span className="text-[#E8B84B]">Felix</span>
+            Villa <span className="text-[#F0C850]">Felix</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Your private retreat in the heart of Cilento. Comfort, beauty, and authentic Italian hospitality.
           </p>
           <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300 flex items-center justify-center gap-2 mt-6">
-            <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
-            <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
-            <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
-            <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
-            <Star size={20} className="text-[#E8B84B] fill-[#E8B84B]" />
+            <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
+            <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
+            <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
+            <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
+            <Star size={20} className="text-[#F0C850] fill-[#F0C850]" />
             <span className="ml-2 text-white/90">5.0 · 47 reviews</span>
           </div>
         </div>
@@ -113,7 +113,7 @@ const Accommodation = () => {
       <section ref={galleryRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-4">
               Photo Gallery
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -192,7 +192,7 @@ const Accommodation = () => {
       <section ref={amenitiesRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-sm font-medium mb-4">
               Amenities
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -208,7 +208,7 @@ const Accommodation = () => {
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center">
-                  <amenity.icon size={18} className="text-[#1B8C5A]" />
+                  <amenity.icon size={18} className="text-[#0F8A50]" />
                 </div>
                 <span className="font-medium text-charcoal text-sm">{amenity.name}</span>
               </div>
@@ -223,7 +223,7 @@ const Accommodation = () => {
         
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#2B4FA0]/10 text-[#2B4FA0] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1A3D9C]/10 text-[#1A3D9C] text-sm font-medium mb-4">
               Location
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -238,8 +238,8 @@ const Accommodation = () => {
                 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl p-6 flex items-center gap-4"
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
-                <div className="w-12 h-12 rounded-full bg-[#E8B84B]/10 flex items-center justify-center">
-                  <place.icon size={20} className="text-[#E8B84B]" />
+                <div className="w-12 h-12 rounded-full bg-[#F0C850]/10 flex items-center justify-center">
+                  <place.icon size={20} className="text-[#F0C850]" />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-charcoal">{place.name}</h3>
@@ -257,7 +257,7 @@ const Accommodation = () => {
       <section ref={reviewsRef} className="relative section-padding bg-[#FEFBF7]">
         <div className="container-padding max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#E8B84B]/10 text-[#E8B84B] text-sm font-medium mb-4">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#F0C850]/10 text-[#F0C850] text-sm font-medium mb-4">
               Guest Reviews
             </span>
             <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl text-charcoal mb-6">
@@ -274,7 +274,7 @@ const Accommodation = () => {
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(review.rating)].map((_, i) => (
-                    <Star key={i} size={16} className="text-[#E8B84B] fill-[#E8B84B]" />
+                    <Star key={i} size={16} className="text-[#F0C850] fill-[#F0C850]" />
                   ))}
                 </div>
                 <p className="text-charcoal mb-4 italic">"{review.text}"</p>

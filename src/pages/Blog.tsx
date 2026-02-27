@@ -146,7 +146,7 @@ const Blog = () => {
             </span>
           </div>
           <h1 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight mb-6">
-            Travel Stories & <span className="text-[#E8B84B]">Guides</span>
+            Travel Stories & <span className="text-[#F0C850]">Guides</span>
           </h1>
           <p className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Curated stories, tips, and insights to help you discover the authentic Cilento.
@@ -167,7 +167,7 @@ const Blog = () => {
                 placeholder="Search articles..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 rounded-xl border border-[#D8D5D0] bg-white focus:outline-none focus:border-[#E8B84B]"
+                className="w-full pl-12 pr-4 py-3 rounded-xl border border-[#D8D5D0] bg-white focus:outline-none focus:border-[#F0C850]"
               />
             </div>
             <div className="flex flex-wrap gap-2">
@@ -177,8 +177,8 @@ const Blog = () => {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                     selectedCategory === category
-                      ? 'bg-[#E8B84B] text-white'
-                      : 'bg-[#F5EFE0] text-charcoal hover:bg-[#E8B84B]/20'
+                      ? 'bg-[#F0C850] text-white'
+                      : 'bg-[#F5EFE0] text-charcoal hover:bg-[#F0C850]/20'
                   }`}
                 >
                   {category}
@@ -193,7 +193,7 @@ const Blog = () => {
       {featuredArticle && selectedCategory === 'All' && !searchQuery && (
         <section ref={featuredRef} className="relative section-padding bg-[#FEFBF7]">
           <div className="container-padding max-w-7xl mx-auto">
-            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#D94F3E]/10 text-[#D94F3E] text-sm font-medium mb-6">
+            <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#C73525]/10 text-[#C73525] text-sm font-medium mb-6">
               Featured Article
             </span>
             
@@ -206,7 +206,7 @@ const Blog = () => {
                 />
               </div>
               <div>
-                <span className="inline-block px-3 py-1 rounded-full bg-[#1B8C5A]/10 text-[#1B8C5A] text-xs font-medium mb-4">
+                <span className="inline-block px-3 py-1 rounded-full bg-[#0F8A50]/10 text-[#0F8A50] text-xs font-medium mb-4">
                   {featuredArticle.category}
                 </span>
                 <h2 className="font-heading font-bold text-2xl md:text-3xl text-charcoal mb-4">
@@ -261,7 +261,7 @@ const Blog = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <span className="inline-block px-3 py-1 rounded-full bg-[#E8B84B]/10 text-[#E8B84B] text-xs font-medium mb-3">
+                  <span className="inline-block px-3 py-1 rounded-full bg-[#F0C850]/10 text-[#F0C850] text-xs font-medium mb-3">
                     {article.category}
                   </span>
                   <h3 className="font-heading font-semibold text-lg text-charcoal mb-2 line-clamp-2">
@@ -275,7 +275,7 @@ const Blog = () => {
                       <span>{article.date}</span>
                       <span>{article.readTime}</span>
                     </div>
-                    <button className="text-[#2A9B9B] text-sm font-medium hover:text-[#2B4FA0] transition-colors">
+                    <button className="text-[#2A9B9B] text-sm font-medium hover:text-[#1A3D9C] transition-colors">
                       Read More →
                     </button>
                   </div>

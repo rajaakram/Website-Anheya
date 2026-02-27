@@ -39,7 +39,7 @@ const Testimonials = () => {
       <div className="container-padding max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#2B4FA0]/10 text-[#2B4FA0] text-sm font-medium mb-4">
+          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#1A3D9C]/10 text-[#1A3D9C] text-sm font-medium mb-4">
             {t('testimonials.badge')}
           </span>
           <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -128,7 +128,7 @@ const Testimonials = () => {
           </div>
 
           <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-sm">
-            <div className="w-8 h-8 rounded-full bg-[#1B8C5A]/10 flex items-center justify-center">
+            <div className="w-8 h-8 rounded-full bg-[#0F8A50]/10 flex items-center justify-center">
               <Award size={14} className="text-emerald" />
             </div>
             <span className="text-sm text-deep-olive">

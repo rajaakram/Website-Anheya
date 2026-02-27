@@ -54,7 +54,7 @@ const Experiences = () => {
       <div className="container-padding max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#E8B84B]/10 text-[#D94F3E] text-sm font-medium mb-4">
+          <span className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 inline-block px-4 py-2 rounded-full bg-[#F0C850]/10 text-[#C73525] text-sm font-medium mb-4">
             {t('experiences.badge')}
           </span>
           <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
@@ -77,13 +77,13 @@ const Experiences = () => {
               style={{ transitionDelay: `${(index + 3) * 100}ms` }}
             >
               <div
-                className={`card-organic h-full flex flex-col ${exp.featured ? 'ring-2 ring-[#E8B84B]' : ''
+                className={`card-organic h-full flex flex-col ${exp.featured ? 'ring-2 ring-[#F0C850]' : ''
                   }`}
               >
                 {/* Featured Badge */}
                 {exp.featured && (
                   <div className="absolute top-4 right-4 z-10">
-                    <span className="px-3 py-1 rounded-full bg-[#E8B84B] text-white text-xs font-semibold">
+                    <span className="px-3 py-1 rounded-full bg-[#F0C850] text-white text-xs font-semibold">
                       {t('experiences.mostPopular')}
                     </span>
                   </div>
@@ -133,7 +133,7 @@ const Experiences = () => {
                     </span>
                     <a
                       href="#contact"
-                      className="inline-flex items-center gap-2 text-[#2A9B9B] font-medium text-sm hover:text-[#2B4FA0] transition-colors group/link"
+                      className="inline-flex items-center gap-2 text-[#2A9B9B] font-medium text-sm hover:text-[#1A3D9C] transition-colors group/link"
                     >
                       {t('experiences.learnMore')}
                       <ArrowRight
