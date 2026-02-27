@@ -59,7 +59,7 @@ const Experiences = () => {
           </span>
           <h2 className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-6">
             {t('experiences.titleLine1')}
-            <span className="text-transparent bg-clip-text gradient-warm">
+            <span>
               {t('experiences.titleLine2')}
             </span>
           </h2>
